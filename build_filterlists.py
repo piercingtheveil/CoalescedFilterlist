@@ -46,5 +46,5 @@ def build_list(source_file, output_file, title):
 ", encoding="utf-8")
     print(f"Wrote {output_file}")
 
-build_list("Sources-Expert.txt", "Expert.txt", "Expert")
-build_list("Sources-Green.txt", "Green.txt", "Green")
+build_list("Sources-Expert.md", "Expert.txt", "Expert")
+build_list("Sources-Green.md", "Green.txt", "Green")
