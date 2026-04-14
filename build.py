@@ -41,9 +41,9 @@ def build_list(source_file, output_file, title):
             merged.append(f"! Failed to fetch {url}: {e}")
             merged.append("")
 
-  Path(output_file).write_text("
-".join(merged) + "
-", encoding="utf-8")
+         Path(output_file).write_text("
+         ".join(merged) + "
+         ", encoding="utf-8")
     print(f"Wrote {output_file}")
 
 build_list("Sources-Expert.md", "Expert.txt", "Expert")
