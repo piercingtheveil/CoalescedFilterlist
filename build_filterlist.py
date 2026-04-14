@@ -1,46 +1,50 @@
 import requests
 from pathlib import Path
 
-sources_file = Path("sources.md")
-output_file = Path("coalesced.txt")
+def load_urls(path):
+    urls = []
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            urls.append(line)
+    return urls
 
-urls = []
+def build_list(source_file, output_file, title):
+    urls = load_urls(source_file)
+    merged = []
+    seen = set()
 
-for line in sources_file.read_text(encoding="utf-8").splitlines():
-    line = line.strip()
-    if line and not line.startswith("#"):
-        urls.append(line)
+    merged.append(f"! {title}")
+    merged.append("! Auto-generated from source lists")
+    merged.append("")
 
-merged = []
-seen = set()
+    for url in urls:
+        merged.append(f"! Source: {url}")
+        try:
+            r = requests.get(url, timeout=60)
+            r.raise_for_status()
 
-merged.append("! Combined filter list")
-merged.append("! Auto-generated from source lists")
-merged.append("")
+            for line in r.text.splitlines():
+                line = line.rstrip()
+                if not line:
+                    continue
 
-for url in urls:
-    merged.append(f"! Source: {url}")
-    try:
-        r = requests.get(url, timeout=60)
-        r.raise_for_status()
+                if line in seen:
+                    continue
 
-        for line in r.text.splitlines():
-            line = line.rstrip()
-            if not line:
-                continue
+                seen.add(line)
+                merged.append(line)
 
-            if line in seen:
-                continue
+            merged.append("")
 
-            seen.add(line)
-            merged.append(line)
+        except Exception as e:
+            merged.append(f"! Failed to fetch {url}: {e}")
+            merged.append("")
 
-        merged.append("")
+    Path(output_file).write_text("
+".join(merged) + "
+", encoding="utf-8")
+    print(f"Wrote {output_file}")
 
-    except Exception as e:
-        merged.append(f"! Failed to fetch {url}: {e}")
-        merged.append("")
-
-output_file.write_text("
-".join(merged) + "\n", encoding="utf-8")
-print(f"Wrote {output_file}")
+build_list("Sources-Expert.txt", "Expert.txt", "Expert")
+build_list("Sources-Green.txt", "Green.txt", "Green")
