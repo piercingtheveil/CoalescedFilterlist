@@ -2,7 +2,7 @@ name: Update filter lists
 
 on:
   schedule:
-    - cron: "0 3 */2 * *"
+    - cron: "0 */8 * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,13 +15,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Show current folder
-        run: pwd
-
-      - name: Show files
-        run: ls -la
-
      
       - name: Set up Python
         uses: actions/setup-python@v5
