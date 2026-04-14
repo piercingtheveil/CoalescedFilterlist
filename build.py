@@ -2,12 +2,11 @@ import requests
 from pathlib import Path
 
 def load_urls(path):
-    urls = []
-    for line in Path(path).read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if line and not line.startswith("#"):
-            urls.append(line)
-    return urls
+    return [
+        line.strip()
+        for line in Path(path).read_text(encoding="utf-8").splitlines()
+        if (line := line.strip()) and not line.startswith("#")
+    ]
 
 def build_list(source_file, output_file, title):
     urls = load_urls(source_file)
@@ -18,20 +17,19 @@ def build_list(source_file, output_file, title):
     merged.append("! Auto-generated from source lists")
     merged.append("")
 
+    session = requests.Session()
+    session.headers.update({"User-Agent": "list-builder/1.0"})
+
     for url in urls:
         merged.append(f"! Source: {url}")
         try:
-            r = requests.get(url, timeout=60)
+            r = session.get(url, timeout=60)
             r.raise_for_status()
 
             for line in r.text.splitlines():
                 line = line.rstrip()
-                if not line:
+                if not line or line in seen:
                     continue
-
-                if line in seen:
-                    continue
-
                 seen.add(line)
                 merged.append(line)
 
@@ -41,9 +39,9 @@ def build_list(source_file, output_file, title):
             merged.append(f"! Failed to fetch {url}: {e}")
             merged.append("")
 
-    Path(output_file).write_text("
-".join(merged) + "
-", encoding="utf-8")
+    out_path = Path(output_file)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text("\n".join(merged) + "\n", encoding="utf-8")
     print(f"Wrote {output_file}")
 
 build_list("Sources-Expert.md", "Expert.txt", "Expert")
