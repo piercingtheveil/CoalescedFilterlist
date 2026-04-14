@@ -2,11 +2,13 @@ import requests
 from pathlib import Path
 
 def load_urls(path):
-    return [
-        line.strip()
-        for line in Path(path).read_text(encoding="utf-8").splitlines()
-        if (line := line.strip()) and not line.startswith("#")
-    ]
+    urls = []
+    for raw in Path(path).read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if line and not line.startswith("#"):
+            urls.append(line)
+    return urls
+
 
 def build_list(source_file, output_file, title):
     urls = load_urls(source_file)
