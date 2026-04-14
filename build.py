@@ -44,7 +44,7 @@ def build_list(source_file, output_file, title):
          Path(output_file).write_text("
          ".join(merged) + "
          ", encoding="utf-8")
-    print(f"Wrote {output_file}")
+         print(f"Wrote {output_file}")
 
 build_list("Sources-Expert.md", "Expert.txt", "Expert")
 build_list("Sources-Green.md", "Green.txt", "Green")
