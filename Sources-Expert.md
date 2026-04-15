@@ -16,3 +16,4 @@ https://old.reddit.com/r/uBlockOrigin/wiki/solutions
 https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/refs/heads/main/ASRC
 https://hblock.molinero.dev/hosts_adblock.txt
 https://v.firebog.net/hosts/Easyprivacy.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
