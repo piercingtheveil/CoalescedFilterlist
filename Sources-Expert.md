@@ -19,41 +19,41 @@ https://v.firebog.net/hosts/Easyprivacy.txt
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
 https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
-!#include https://urlhaus.abuse.ch/downloads/hostfile/
-!#include https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
-!#include https://raw.githubusercontent.com/bestpika/abp/master/yui.txt
-!#include https://raw.githubusercontent.com/damengzhu/banad/main/dnslist.txt
-!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt
-!#include https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
-!#include https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/Finland_adb.txt
-!#include https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/aghome_adult.txt
-!#include https://secure.fanboy.co.nz/fanboy-antifonts.txt
-!#include https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
-!#include https://secure.fanboy.co.nz/fanboy-indian.txt
-!#include https://secure.fanboy.co.nz/r/fanboy-ultimate.txt
-!#include https://filter.futa.gg/hosts_abp.txt
-!#include https://filter.futa.gg/nofarm_abp.txt
-!#include https://filter.futa.gg/TWNIC-RPZ_abp.txt
-!#include https://filter.futa.gg/TW165_abp.txt
-!#include https://raw.githubusercontent.com/HexxiumCreations/threat-list/gh-pages/hexxiumthreatlist.txt
-!#include https://raw.githubusercontent.com/ilpl/ad-hosts/master/filter.txt
-!#include https://raw.githubusercontent.com/jakejarvis/ios-trackers/master/adguard.txt
-!#include https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/adguard_dns.txt
-!#include https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt
-!#include https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
-!#include https://raw.githubusercontent.com/T145/not-on-my-shift/master/built/abp.txt
-!#include https://quidsup.net/notrack/blocklist.php?download=annoyanceunix
-!#include https://quidsup.net/notrack/blocklist.php?download=malwareunix
-!#include https://gitlab.com/quidsup/ntrk-tracker-radar/-/raw/master/ddg_tracker_radar_confirmed.hosts
-!#include https://quidsup.net/notrack/blocklist.php?download=trackersunix
-!#include https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
-!#include https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2024.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-!#include https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
-!#include https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
+https://urlhaus.abuse.ch/downloads/hostfile/
+https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
+https://raw.githubusercontent.com/bestpika/abp/master/yui.txt
+https://raw.githubusercontent.com/damengzhu/banad/main/dnslist.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/Finland_adb.txt
+https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/aghome_adult.txt
+https://secure.fanboy.co.nz/fanboy-antifonts.txt
+https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+https://secure.fanboy.co.nz/fanboy-indian.txt
+https://secure.fanboy.co.nz/r/fanboy-ultimate.txt
+https://filter.futa.gg/hosts_abp.txt
+https://filter.futa.gg/nofarm_abp.txt
+https://filter.futa.gg/TWNIC-RPZ_abp.txt
+https://filter.futa.gg/TW165_abp.txt
+https://raw.githubusercontent.com/HexxiumCreations/threat-list/gh-pages/hexxiumthreatlist.txt
+https://raw.githubusercontent.com/ilpl/ad-hosts/master/filter.txt
+https://raw.githubusercontent.com/jakejarvis/ios-trackers/master/adguard.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/adguard_dns.txt
+https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+https://raw.githubusercontent.com/T145/not-on-my-shift/master/built/abp.txt
+https://quidsup.net/notrack/blocklist.php?download=annoyanceunix
+https://quidsup.net/notrack/blocklist.php?download=malwareunix
+https://gitlab.com/quidsup/ntrk-tracker-radar/-/raw/master/ddg_tracker_radar_confirmed.hosts
+https://quidsup.net/notrack/blocklist.php?download=trackersunix
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
+https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2024.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
