@@ -7,3 +7,4 @@ https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
 https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt
 https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt
 https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
