@@ -13,3 +13,4 @@ https://urlhaus.abuse.ch/downloads/text
 https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
 https://old.reddit.com/r/uBlockOrigin/wiki/solutions
 https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/refs/heads/main/ASRC
+https://v.firebog.net/hosts/Easyprivacy.txt
