@@ -57,3 +57,4 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-20
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
 https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
