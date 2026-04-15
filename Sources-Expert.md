@@ -11,3 +11,4 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.tx
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 https://urlhaus.abuse.ch/downloads/text
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
