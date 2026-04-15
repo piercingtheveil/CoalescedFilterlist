@@ -1,3 +1,15 @@
+How to apply filters
+
+Paste into uBO Dashboard -> My filters tab and apply changes.
+How to test filters
+
+You can live-test cosmetic filters by pasting them into the Element Picker's box (without the domain -> starting with ##).
+The highlight will show you areas that will be affected by the filter. [Preview] will show you how the filter will work on the current page. And the numerical indicator in the box's lower-right corner will tell you how many elements will be caught by it.
+
+Since the "picker-test" doesn't tell you how the filter will affect other pages/areas of the website, there's a useful little trick for checking that.
+All you need to do is add a :style(...) filter at the end of the line, e.g. :style(border: dotted red 6px !important), and instead of hiding the elements, the filter will now surround them with red dots.
+After doing some browsing to verify no other areas were affected, you simply remove the :style(...) ending to make the filter work as expected.
+
 ! >> uBlock filters - Annoyances should remove Suggested posts without a need for additional filters <<
 ! Suggested for you
 www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset],[aria-describedby]:not([aria-posinset])):style(height: 0 !important; overflow: hidden !important;)
@@ -61,3 +73,213 @@ www.reddit.com##body[style*="overflow"]:style(overflow:auto!important;)
 reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
 ! Block downloading. Please report back if does not work or causes issues
 ||strapi.reddit.com^$xhr,domain=reddit.com
+
+IMPORTANT! - Most of the filters below have a :style() operator added for testing purposes which provides a visual indication of the element(s) that the filter will target. If there are no false positives, remove the operator to actually hide what you wanted.
+
+! Twitter/X - Clean Timelines - See Only Tweets/Posts, No Inserts
+twitter.com,x.com##:is([aria-label="Timeline: Your Home Timeline"],[aria-label^="Timeline:"][aria-label$="posts"]) div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"],>div>button))
+
+! Analytics/Views button on tweets
+twitter.com,x.com##article [role=group] [href$="/analytics"]:upward(div:not(:only-child))
+! Views - the new placement in conversation view
+twitter.com,x.com##[aria-label="Timeline: Conversation"] [href*="/status/"] ~ span
+
+! Twitter/X - [User] Retweeted/Reposted (excludes own retweets)
+twitter.com,x.com##[aria-label^="Timeline:"] [data-testid="cellInnerDiv"]:has([d^="M4.75 3.79l4.603"]):not(:has([data-testid="unretweet"])):style(border: yellow dotted 5px !important)
+
+! Twitter/X - "Official" label on posts and profiles
+twitter.com,x.com##[src$="/verified_stroke_1.png"]:upward(div:not(:empty)+div:last-of-type):style(border: dotted 2px grey !important;)
+
+! Twitter/X - Like and Retweet counts // Remove ` [data-testid="app-text-transition-container"]` to hide entire buttons
+twitter.com,x.com##[data-testid="retweet"] [data-testid="app-text-transition-container"], [data-testid="like"] [data-testid="app-text-transition-container"]
+
+! Twitter/X - Discover more / More Tweets - Conversation view suggestions
+twitter.com,x.com##[aria-label="Timeline: Conversation"] :is([data-testid="cellInnerDiv"]:has(h2:not(:only-child)), [data-testid="cellInnerDiv"]:has(h2:not(:only-child))~div)
+
+
+! Twitter/X - Hidden posts - hide "Show additional replies" or "This tweet is from an account you've blocked/muted"
+twitter.com,x.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] article [role="button"]:not([aria-label]):upward([data-testid="cellInnerDiv"])
+
+! Twitter/X - Get verified
+twitter.com,x.com##[aria-label="Get Verified"]    
+! Twitter/X - Live spaces
+twitter.com,x.com##[data-testid="sidebarColumn"] [data-testid="placementTracking"]:last-child:upward(1) 
+! Twitter/X - Sidebar - Topics to follow
+twitter.com,x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+! Twitter/X - Sidebar - What's happening/Trending now/Trends for you
+twitter.com,x.com##[aria-label$="trending now" i]
+! Twitter/X - Sidebar - Who to follow/You might like
+twitter.com,x.com##[aria-label="who to follow" i]:upward(1)
+
+twitter.com,x.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+twitter.com,x.com##html:style(overflow: auto !important;)
+
+twitter.com,x.com###layers>div:last-of-type:has-text(Switch to the app)
+
+
+! YT consent
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+
+! 2021-12-01: When specific videos redirect persistently to consent page try this filter (discussion: https://redd.it/r3ec5x ):
+youtube.com##+js(set, ytInitialData.onResponseReceivedEndpoints, undefined)
+
+! 2021-12-14 YT consent v2 https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-992858673
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer, undefined)
+youtube.com##+js(json-prune, [].response.overlay.consentBumpV2Renderer topbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer overlay.consentBumpV2Renderer response.overlay.consentBumpV2Renderer)
+
+! 2022-10-16 when navigating directly to #shorts
+youtube.com##+js(set, ytInitialData.desktopTopbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer, undefined)
+
+! YT login
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+! probably this one is also neded, but I cannot reproduce anymore
+! youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+
+! YT - Homepage and Subscriptions (Grid View) - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT - Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT - Search - Hide Shorts
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Search, Channels, Subscriptions (List View) and Sidebar/Below Player Recommendations - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT - Channels - Hide the Shorts tab
+www.youtube.com##[tab-title="Shorts"]
+! YT - Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - Sidebar - Hide Shorts
+www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has([overlay-style="SHORTS"],[href^="/shorts/"])
+! YT - History - Hide Shorts
+www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-history]>#dismissible>ytd-thumbnail>#thumbnail[href^="/shorts/"])
+
+! YT Mobile - Hide the Shorts Menu button
+m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
+! YT Mobile - Hide the Shorts sections
+m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
+! YT Mobile - Search - Hide Shorts
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
+! YT Mobile - Channels - Hide the Shorts button
+m.youtube.com##[tab-title="Shorts"]
+! YT Mobile - History - Hide Shorts
+m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
+
+! YT Home - Hide Mixes
+youtube.com##ytd-rich-item-renderer:has([href*="start_radio=1"])
+! YT Sidebar - Hide Mixes
+youtube.com##ytd-compact-radio-renderer, :is(#related yt-lockup-view-model,ytd-compact-video-renderer):has([href*="&start_radio=1"])
+! YT Search- Hide Mixes
+youtube.com##ytd-radio-renderer, :is(ytd-search yt-lockup-view-model,ytd-video-renderer[is-search]):has([href*="&start_radio=1"][aria-haspopup])
+! YT Player - Hide Mixes in Video End Cards
+youtube.com##.ytp-videowall-still[data-is-mix="true"]
+
+! YT Sidebar - Hide "YouTube" (Music) playlists
+youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+
+! YT - Hide Live Videos
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer,yt-lockup-view-model):has(.badge-style-type-live-now-alternate,.yt-spec-avatar-shape--live-ring,.yt-badge-shape--thumbnail-live)
+! YT - Hide VODs/Streamed Videos
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer,ytd-video-renderer,yt-lockup-view-model):has([aria-label~="Streamed"])
+! YT  - Hide VODs/Streamed Videos (backup version - less efficient)
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer,ytd-video-renderer,yt-lockup-view-model):not(:has([aria-label~="Streamed"])) :is(#metadata-line>span,.yt-content-metadata-view-model__metadata-row):last-of-type:has-text(Streamed):upward(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer,ytd-video-renderer,yt-lockup-view-model)
+
+! YT Home - Hide videos based on channel URLs
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has([href="/channel/channel1-ID-here"],[href="@/Channel2NameHere"])
+! YT Home - Hide videos based on their titles
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(:is(#video-title-link,h3):is([title*="Partial Match"], [title*="Case-Insensitive Partial Match"i], [title~="Space-separated-aka-Whole-word-match"]))
+! YT Sidebar - Hide videos based on their titles
+youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has(:is(#video-title,h3):is([title*="Partial Match"], [title*="Case-Insensitive Partial Match"i], [title~="Space-separated-aka-Whole-word-match"]))
+! YT - Sidebar - Hide videos based on channel names (procedural)
+www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model) .yt-content-metadata-view-model__metadata-row:first-child>span:has-text(/^(Channel Name 1|Channel Name 2)$/):upward(ytd-compact-video-renderer,yt-lockup-view-model)
+! Mobile YT - Hide videos based on channel URLs
+m.youtube.com##ytm-media-item .media-channel a:not([class]):is([href="/@ChannelURL"], [href="/@AnotherChannelURL"]):upward(ytm-media-item)
+! YT Home - No Videos
+www.youtube.com##ytd-browse[page-subtype="home"]
+! YT Videos - No Sidebar
+www.youtube.com##ytd-watch-flexy #secondary
+! YT Videos - Sidebar Without Recommendations
+www.youtube.com##ytd-watch-flexy #secondary
+
+! YT Homepage - Hide the Posts Section
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer:has(ytd-rich-item-renderer[is-post])
+! YT Homepage - Hide Posts
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer[is-post]
+
+! YT - Paid Promotion Overlay
+youtube.com##.ytp-paid-content-overlay, .ytmPaidContentOverlayHost
+
+! YT - Below the Player Buttons - Join
+www.youtube.com###top-row.ytd-watch-metadata #sponsor-button
+! YT - Below the Player Buttons - Subscribe
+www.youtube.com###top-row.ytd-watch-metadata #subscribe-button
+! YT - Below the Player Buttons - Like/Dislike
+www.youtube.com###top-row.ytd-watch-metadata .ytSegmentedLikeDislikeButtonViewModelHost
+    ! YT - Below the Player Buttons - Like
+    www.youtube.com###top-row.ytd-watch-metadata .ytLikeButtonViewModelHost
+        ! YT - Below the Player Buttons - Like Count
+        www.youtube.com###top-row.ytd-watch-metadata .ytLikeButtonViewModelHost .yt-spec-button-shape-next__button-text-content
+    ! YT - Below the Player Buttons - Dislike
+    www.youtube.com###top-row.ytd-watch-metadata .ytDislikeButtonViewModelHost
+! YT - Below the Player Buttons - Ask
+www.youtube.com###top-row.ytd-watch-metadata yt-button-view-model:has([aria-label="Ask"])
+! YT - Below the Player Buttons - Thanks
+www.youtube.com###top-row.ytd-watch-metadata yt-button-view-model:has([aria-label="Thanks"])
+! YT - Below the Player Buttons - Share
+www.youtube.com###top-row.ytd-watch-metadata yt-button-view-model:has([aria-label="Share"])
+! YT - Below the Player Buttons - Download
+www.youtube.com###top-row.ytd-watch-metadata ytd-download-button-renderer
+! YT - Below the Player Buttons - Clip
+www.youtube.com###top-row.ytd-watch-metadata yt-button-view-model:has([aria-label="Clip"])
+! YT - Below the Player Buttons - Save
+www.youtube.com###top-row.ytd-watch-metadata yt-button-view-model:has([aria-label="Save"])
+! YT - Below the Player Buttons - More
+www.youtube.com###top-row.ytd-watch-metadata [aria-label="More actions"]
+    ! YT - Below the Player Buttons - More: Ask
+    www.youtube.com##ytd-menu-service-item-renderer:has([d^="M480-80q0-83-31.5-156T363-363q-54-54-127-85.5T80-480q83"])
+    ! YT - Below the Player Buttons - More: Thanks
+    www.youtube.com##ytd-menu-service-item-renderer:has([d^="M16.25 2A6.7 6.7 0 0012 3.509 6.75 6.75"])
+    ! YT - Below the Player Buttons - More: Clip
+    www.youtube.com##ytd-menu-service-item-renderer:has([d^="M6 2.002a4 4 0 102.03 7.445L10.586"])
+    ! YT - Below the Player Buttons - More: Save
+    www.youtube.com##ytd-menu-service-item-renderer:has([d^="M19 2H5a2 2 0 00-2 2v16.887c0 1.266 1.382"])
+    ! YT - Below the Player Buttons - More: Download
+    www.youtube.com##ytd-menu-service-item-download-renderer
+    ! YT - Below the Player Buttons - More: Report
+    www.youtube.com##ytd-menu-service-item-renderer:has([d^="m4 2.999-.146.073A1.55 1.55 0 003 4.454v16.545a1"])
+
+youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
+~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+
+! YT Search - keep only videos (no shorts)
+youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-renderer,yt-showing-results-for-renderer,[icon-name="promo-full-height:EMPTY_SEARCH"]),ytd-video-renderer:has([aria-label="Shorts"])),ytd-secondary-search-container-renderer
+
+! YT Search - keep only videos (no shorts) and channels
+youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-renderer,ytd-channel-renderer,yt-showing-results-for-renderer,[icon-name="promo-full-height:EMPTY_SEARCH"]),ytd-video-renderer:has([aria-label="Shorts"])),ytd-secondary-search-container-renderer
+
+! YT Search - keep only videos (no shorts), channels and playlists
+youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-renderer,ytd-channel-renderer,ytd-playlist-renderer,yt-lockup-view-model,yt-showing-results-for-renderer,[icon-name="promo-full-height:EMPTY_SEARCH"]),ytd-video-renderer:has([aria-label="Shorts"])),ytd-secondary-search-container-renderer
+
+! YT Search - hide results based on channel names
+www.youtube.com##ytd-search ytd-video-renderer:has(#text.ytd-channel-name:is([title="Exact channel name 1"], [title="Exact channel name 2"]))
+
+! Move homepage placeholders to the end
+www.youtube.com##ytd-browse[page-subtype="home"] :is(ytd-rich-grid-row, #contents.ytd-rich-grid-row):style(display: contents !important)
+! Fixes grid alignment
+www.youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid][is-in-first-column]:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important)
+www.youtube.com##ytd-rich-grid-renderer>#contents:style(margin-left: calc(var(--ytd-rich-grid-gutter-margin)) !important)
+www.youtube.com###content.ytd-rich-section-renderer:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important; margin-right: calc(var(--ytd-rich-grid-item-margin)*2.5) !important;)
+
+youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
+youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+youtube.com##+js(json-edit-fetch-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+youtube.com##+js(rpnt, script, (function serverContract(), if("object"===typeof window.ytInitialPlayerResponse){window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));}(function serverContract(), sedCount, 1)
+
+youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer, ytd-popup-container > tp-yt-paper-dialog > yt-mealbar-promo-renderer:has-text(/Claim Offer|Join now|Not Now|No thanks|YouTube TV|live TV|Live TV|movies|sports|Try it free|unlimited DVR|watch NFL/)
+
