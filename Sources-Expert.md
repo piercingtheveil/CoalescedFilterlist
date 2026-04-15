@@ -10,3 +10,4 @@ https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-li
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
+https://urlhaus.abuse.ch/downloads/text
