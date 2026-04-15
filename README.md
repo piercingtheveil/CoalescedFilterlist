@@ -20,10 +20,10 @@ It is up to every man to choose for himself
 
 The table below shows the filter list options and their content blockers. Refer to this when configuring.
 
-| Version | Entries | Ads | Trackers | Malware | Adult | Gambling | Social media | URL Shortener | Attention span reducing content | Unsafe and not recommended/potentially unsafe sites and apps |
-|:--------|---:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
-| :seedling:[Green](#green)              | 408244<br>191043         | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | |  |  | :white_check_mark: | :white_check_mark: |
-| :closed_book:[Expert](#expert)    | 578290<br>297010 | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Version | Annoyances | Ads | Trackers | Malware | Adult | Gambling | Social media | URL Shortener | Attention span reducing content | Unsafe and not recommended/potentially unsafe sites and apps |
+|:--------|----:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
+| :seedling:[Green](#green) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | |  |  | :white_check_mark: | :white_check_mark: |
+| :closed_book:[Expert](#expert) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 :white_check_mark: blocks the content named in the column caption
 
