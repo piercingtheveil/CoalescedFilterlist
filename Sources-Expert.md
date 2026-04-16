@@ -59,4 +59,4 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.tx
 https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
 https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
-
+https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
