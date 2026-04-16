@@ -17,3 +17,4 @@ https://v.firebog.net/hosts/Easyprivacy.txt
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
+https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
