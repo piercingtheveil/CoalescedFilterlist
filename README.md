@@ -29,6 +29,14 @@ The table below shows the filter list options and their content blockers. Refer 
 
 :white_check_mark: blocks the content named in the column caption
 
+---
+
 ### :seedling: **Green** - **Default protection** <a name="green"></a>
 
 Read: [Which sources are used for this list?](https://github.com/piercingtheveil/CoalescedFilterlist/blob/main/Sources-Green.md)
+
+---
+
+### :evergreen_tree: **Expert** - **Truly a mystery** <a name="Expert"></a>
+
+Read: [Which sources are used for this list?](https://github.com/piercingtheveil/CoalescedFilterlist/blob/main/Sources-Expert.md)
