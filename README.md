@@ -1,5 +1,5 @@
 # :badger: Coalesced Filter list
-Coalesced filter list 
+Coalesced filter list, should be used for Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam, Little Snitch Mini
 
 ---
 
