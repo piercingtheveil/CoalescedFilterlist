@@ -18,3 +18,4 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/h
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
 https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
+https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt
