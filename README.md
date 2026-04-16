@@ -13,6 +13,8 @@ Coalesced filter list, should be used for Pi-hole, AdGuard, AdGuard Home, eBlock
 6. [Sources](sources.md)
 7. [Disclaimer](#disclaimer)
 
+   ---
+
 ### :performing_arts: Convenience versus Privacy <a name="overview"></a>
 
 It is up to every man to choose for himself
