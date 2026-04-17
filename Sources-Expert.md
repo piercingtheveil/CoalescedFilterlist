@@ -19,6 +19,9 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt
 
+https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
+
+
 
 
 
@@ -46,6 +49,9 @@ https://hblock.molinero.dev/hosts_adblock.txt
 https://ublockorigin.pages.dev/thirdparties/easylist.txt
 
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
+
 
 
 
@@ -220,12 +226,9 @@ https://ublockorigin.pages.dev/filters/unbreak.min.txt
 
 
 
-https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
 
 
-https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
 
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
 
 
 
