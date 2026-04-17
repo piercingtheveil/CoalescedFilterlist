@@ -100,3 +100,7 @@ https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-n
 https://ublockorigin.github.io/uAssetsCDN/thirdparties/easylist-newsletters.txt
 https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif-ips.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga30.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adguard/dns-rebind-protection.txt
