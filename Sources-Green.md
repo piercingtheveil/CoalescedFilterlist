@@ -24,3 +24,4 @@ https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/m
 https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/adblock.txt
 https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uBlacklist.txt
 https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt
+https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
