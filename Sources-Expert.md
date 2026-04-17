@@ -99,3 +99,4 @@ https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-c
 https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-notifications.txt
 https://ublockorigin.github.io/uAssetsCDN/thirdparties/easylist-newsletters.txt
 https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif-ips.txt
