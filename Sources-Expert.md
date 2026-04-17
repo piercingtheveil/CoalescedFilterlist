@@ -102,8 +102,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 
 https://urlhaus.abuse.ch/downloads/text
 
-https://urlhaus.abuse.ch/downloads/hostfile/
-
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 
 https://raw.githubusercontent.com/T145/not-on-my-shift/master/built/abp.txt
