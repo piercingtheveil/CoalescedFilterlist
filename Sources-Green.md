@@ -98,6 +98,9 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
 
 https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
 
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+
+
 
 # Attention span reducing content
 
@@ -113,8 +116,6 @@ https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 # Unsafe and not recommended/potentially unsafe sites and apps
 
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
-
-https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 
 https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
 
