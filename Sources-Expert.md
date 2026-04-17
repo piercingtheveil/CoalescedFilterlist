@@ -33,7 +33,7 @@ https://hblock.molinero.dev/hosts_adblock.txt
 
 https://v.firebog.net/hosts/Easyprivacy.txt
 
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
 
