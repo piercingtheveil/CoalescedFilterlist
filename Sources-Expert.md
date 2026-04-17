@@ -69,3 +69,4 @@ https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt
 https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
 https://api.stopmodreposts.org/ublacklist.txt
 https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
+https://raw.githubusercontent.com/franga2000/aliexpress-fake-sites/main/domains_uBlacklist.txt
