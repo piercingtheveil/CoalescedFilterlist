@@ -107,6 +107,10 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-20
 
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2024.txt
 
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2025.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2026.txt
+
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
 
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
