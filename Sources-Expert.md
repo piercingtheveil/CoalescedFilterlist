@@ -22,11 +22,6 @@ https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt
 https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
 
 
-
-
-
-
-
 # Trackers
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
@@ -38,22 +33,13 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.tx
 https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
 
-
-
-
-
 # Advertising
 
 https://hblock.molinero.dev/hosts_adblock.txt
 
 https://ublockorigin.pages.dev/thirdparties/easylist.txt
 
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
-
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
-
-
-
 
 
 # Annoyances
@@ -87,11 +73,6 @@ https://ublockorigin.github.io/uAssetsCDN/thirdparties/easylist-newsletters.txt
 https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
 
 https://ublockorigin.pages.dev/filters/filters.min.txt
-
-
-
-
-
 
 
 # Malware, Security
@@ -144,9 +125,6 @@ https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-li
 https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 
 
-
-
-
 # Unsafe and not recommended/potentially unsafe sites and apps
 
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
@@ -164,10 +142,6 @@ https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uB
 https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
 
 https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/all.txt
-
-
-
-
 
 
 # Miscellaneous
