@@ -3,173 +3,62 @@
 # Active sources that are fully used for the compilation of the block lists. There is 1:1 transfer of the sources, these form the individual list versions.    #  
 # Every source has its own license, for the individual licenses see the source files or source repositories:
 
+
+
+# Multipurpose
+
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt
 
 https://big.oisd.nl
-
-https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
-
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt
-
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt
-
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt
-
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt
-
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
-
-https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
-
-https://urlhaus.abuse.ch/downloads/text
-
-https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
 
 https://old.reddit.com/r/uBlockOrigin/wiki/solutions
 
 https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/refs/heads/main/ASRC
 
-https://hblock.molinero.dev/hosts_adblock.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt
+
+
+
+
+
+
+# Trackers
+
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
 
 https://v.firebog.net/hosts/Easyprivacy.txt
 
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
 
-https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
+https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
-https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 
-https://urlhaus.abuse.ch/downloads/hostfile/
 
-https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
 
-https://raw.githubusercontent.com/damengzhu/banad/main/dnslist.txt
 
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt
 
-https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+# Advertising
 
-https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/Finland_adb.txt
+https://hblock.molinero.dev/hosts_adblock.txt
 
-https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/aghome_adult.txt
+https://ublockorigin.pages.dev/thirdparties/easylist.txt
+
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+
+
+
+
+# Annoyances
 
 https://secure.fanboy.co.nz/fanboy-antifonts.txt
 
 https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
 
-https://secure.fanboy.co.nz/fanboy-indian.txt
-
-https://secure.fanboy.co.nz/r/fanboy-ultimate.txt
-
-https://filter.futa.gg/hosts_abp.txt
-
-https://filter.futa.gg/nofarm_abp.txt
-
-https://filter.futa.gg/TWNIC-RPZ_abp.txt
-
-https://filter.futa.gg/TW165_abp.txt
-
-https://raw.githubusercontent.com/HexxiumCreations/threat-list/gh-pages/hexxiumthreatlist.txt
-
-https://raw.githubusercontent.com/ilpl/ad-hosts/master/filter.txt
-
-https://raw.githubusercontent.com/jakejarvis/ios-trackers/master/adguard.txt
-
-https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/adguard_dns.txt
-
-https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt
-
-https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
-
-https://raw.githubusercontent.com/T145/not-on-my-shift/master/built/abp.txt
-
-https://quidsup.net/notrack/blocklist.php?download=annoyanceunix
-
-https://quidsup.net/notrack/blocklist.php?download=malwareunix
-
-https://gitlab.com/quidsup/ntrk-tracker-radar/-/raw/master/ddg_tracker_radar_confirmed.hosts
-
-https://quidsup.net/notrack/blocklist.php?download=trackersunix
-
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
-
-https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2024.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2025.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2026.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
-
-https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
-
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
-
-https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
-
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
-
 https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt
 
-https://raw.githubusercontent.com/cevvalkoala/CevvalYoutubeAIBlocklist/main/CevvalYoutubeAIblocklist.txt
-
-https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
-
-https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/adblock.txt
-
-https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uBlacklist.txt
-
-https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt
-
-https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
-
-https://api.stopmodreposts.org/ublacklist.txt
-
-https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
-
-https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/all.txt
-
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
-
-https://ublockorigin.pages.dev/thirdparties/easylist.txt
-
-https://ublockorigin.pages.dev/filters/filters.min.txt
-
-https://ublockorigin.pages.dev/filters/badware.min.txt
-
-https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/privacy.min.txt
-
-https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt
-
-https://ublockorigin.pages.dev/filters/unbreak.min.txt
-
-https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
-
-https://ublockorigin.github.io/uAssetsCDN/filters/lan-block.txt
-
-https://curbengh.github.io/malware-filter/urlhaus-filter-ag-online.txt
-
-https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
-
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
-
-https://someonewhocares.org/hosts/hosts
 
 https://secure.fanboy.co.nz/fanboy-cookiemonster_ubo.txt
 
@@ -191,6 +80,42 @@ https://ublockorigin.github.io/uAssetsCDN/thirdparties/easylist-newsletters.txt
 
 https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
 
+https://ublockorigin.pages.dev/filters/filters.min.txt
+
+
+
+
+
+
+
+# Malware, Security
+
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt
+
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
+
+https://urlhaus.abuse.ch/downloads/text
+
+https://urlhaus.abuse.ch/downloads/hostfile/
+
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+
+https://raw.githubusercontent.com/T145/not-on-my-shift/master/built/abp.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
+
+https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
+
+https://ublockorigin.pages.dev/filters/badware.min.txt
+
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
+
+https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
+
+https://ublockorigin.github.io/uAssetsCDN/filters/lan-block.txt
+
+https://curbengh.github.io/malware-filter/urlhaus-filter-ag-online.txt
+
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif-ips.txt
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
@@ -204,3 +129,116 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adguard/dns-rebind-prot
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-ublock.txt
 
 https://raw.githubusercontent.com/ublockorigin/uassets/master/filters/resource-abuse.txt
+
+https://someonewhocares.org/hosts/hosts
+
+
+
+
+
+
+
+
+
+
+# Attention span reducing content
+
+https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt
+
+https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt
+
+https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt
+
+https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
+
+
+
+
+
+# Unsafe and not recommended/potentially unsafe sites and apps
+
+https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
+
+https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
+
+https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
+
+https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/adblock.txt
+
+https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+
+https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uBlacklist.txt
+
+https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt
+
+https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
+
+https://api.stopmodreposts.org/ublacklist.txt
+
+https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/all.txt
+
+
+
+
+
+
+# Miscellaneous
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2024.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2025.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2026.txt
+
+https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt
+
+https://ublockorigin.pages.dev/filters/unbreak.min.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
+
+
+https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
+
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
