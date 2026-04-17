@@ -46,7 +46,6 @@ https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 https://someonewhocares.org/hosts/hosts
 https://secure.fanboy.co.nz/fanboy-cookiemonster_ubo.txt
-https://ublockorigin.github.io/uAssetsCDN/filters/annoyances-cookies.txt
 https://ublockorigin.pages.dev/filters/annoyances-cookies.txt
 https://secure.fanboy.co.nz/fanboy-antifacebook.txt
 https://ublockorigin.pages.dev/thirdparties/easylist-social.txt
