@@ -19,8 +19,6 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt
 
-https://raw.githubusercontent.com/T145/black-mirror/refs/heads/master/dist/ADGUARD_SOURCES.txt
-
 
 # Trackers
 
@@ -91,13 +89,7 @@ https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/l
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
 
-https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
-
 https://ublockorigin.github.io/uAssetsCDN/filters/lan-block.txt
-
-https://curbengh.github.io/malware-filter/urlhaus-filter-ag-online.txt
-
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif-ips.txt
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
 
