@@ -43,8 +43,6 @@ https://urlhaus.abuse.ch/downloads/hostfile/
 
 https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
 
-https://raw.githubusercontent.com/bestpika/abp/master/yui.txt
-
 https://raw.githubusercontent.com/damengzhu/banad/main/dnslist.txt
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt
