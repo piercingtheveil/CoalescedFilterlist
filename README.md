@@ -26,7 +26,7 @@ It is up to every man to choose for himself
 
 The table below shows the filter list options and their content blockers. Refer to this when configuring.
 
-| Version | Ads | Annoyances | Trackers | Malware | Adult | Gambling | Social media | URL Shortener | Attention span reducing content | Unsafe and not recommended/potentially unsafe sites and apps |
+| Version | Advertising | Annoyances | Trackers | Malware | Adult | Gambling | Social media | URL Shortener | Attention span reducing content | Unsafe and not recommended/potentially unsafe sites and apps |
 |:--------:|:----:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|
 | :seedling:[Green](#green) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | |  |  | :white_check_mark: | :white_check_mark: |
 | :evergreen_tree:[Expert](#expert) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
