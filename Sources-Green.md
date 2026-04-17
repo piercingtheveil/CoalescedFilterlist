@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/l
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
 
-https://ublockorigin.pages.dev/filters/badware.min.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-ublock.txt
 
