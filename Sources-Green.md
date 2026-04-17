@@ -125,8 +125,6 @@ https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/ad
 
 https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/main/uBlacklist.txt
 
-https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt
-
 https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/main/uBlacklist.txt
 
 https://api.stopmodreposts.org/ublacklist.txt
