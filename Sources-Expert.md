@@ -89,8 +89,6 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.tx
 
 https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
 
-https://ublockorigin.pages.dev/filters/badware.min.txt
-
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
 
 https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
