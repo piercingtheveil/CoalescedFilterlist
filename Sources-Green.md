@@ -86,8 +86,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adguard/dns-rebind-prot
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt
 
-https://someonewhocares.org/hosts/hosts
-
 https://curbengh.github.io/malware-filter/urlhaus-filter-ag-online.txt
 
 https://ublockorigin.github.io/uAssetsCDN/filters/lan-block.txt
@@ -97,7 +95,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
 https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
 
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
-
 
 
 # Attention span reducing content
