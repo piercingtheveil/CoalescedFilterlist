@@ -35,9 +35,6 @@ https://small.oisd.nl
 
 https://ublockorigin.pages.dev/thirdparties/easylist.txt
 
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
-
-
 
 # Annoyances
 
@@ -71,8 +68,6 @@ https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
 # Malware, Security
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
-
-https://urlhaus.abuse.ch/downloads/text
 
 https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
 
