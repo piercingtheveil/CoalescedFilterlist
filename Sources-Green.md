@@ -9,11 +9,11 @@ https://small.oisd.nl
 
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-shorts.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-recommended.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-distracting.txt
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
 
@@ -21,11 +21,11 @@ https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 
 https://urlhaus.abuse.ch/downloads/text
 
-https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 
 https://old.reddit.com/r/uBlockOrigin/wiki/solutions
 
-https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/refs/heads/main/ASRC
+https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/main/ASRC
 
 https://v.firebog.net/hosts/Easyprivacy.txt
 
@@ -37,19 +37,19 @@ https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
 
 https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
 
-https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt
+https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_ai_suggestions.txt
 
 https://raw.githubusercontent.com/cevvalkoala/CevvalYoutubeAIBlocklist/main/CevvalYoutubeAIblocklist.txt
 
-https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/main/GenAI-Blocklist.txt
 
 https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/adblock.txt
 
-https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uBlacklist.txt
+https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/main/uBlacklist.txt
 
 https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt
 
-https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
+https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/main/uBlacklist.txt
 
 https://api.stopmodreposts.org/ublacklist.txt
 
