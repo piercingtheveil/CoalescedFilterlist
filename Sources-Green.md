@@ -29,3 +29,4 @@ https://api.stopmodreposts.org/ublacklist.txt
 https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
 https://raw.githubusercontent.com/franga2000/aliexpress-fake-sites/main/domains_uBlacklist.txt
 https://raw.githubusercontent.com/arosh/ublacklist-stackoverflow-translation/master/uBlacklist.txt
+https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/all.txt
