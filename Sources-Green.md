@@ -84,8 +84,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-ubloc
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adguard/dns-rebind-protection.txt
 
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga30.txt
-
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt
 
 https://someonewhocares.org/hosts/hosts
