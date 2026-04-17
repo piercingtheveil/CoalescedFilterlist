@@ -37,8 +37,6 @@ https://hblock.molinero.dev/hosts_adblock.txt
 
 https://ublockorigin.pages.dev/thirdparties/easylist.txt
 
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker
-
 
 # Annoyances
 
