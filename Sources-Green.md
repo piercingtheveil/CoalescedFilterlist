@@ -127,8 +127,6 @@ https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/main/uBlacklist.tx
 
 https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/main/uBlacklist.txt
 
-https://api.stopmodreposts.org/ublacklist.txt
-
 https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/all.txt
 
 https://raw.githubusercontent.com/ublockorigin/uassets/master/filters/resource-abuse.txt
