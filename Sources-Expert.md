@@ -136,16 +136,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-ubloc
 
 https://raw.githubusercontent.com/ublockorigin/uassets/master/filters/resource-abuse.txt
 
-https://someonewhocares.org/hosts/hosts
-
-
-
-
-
-
-
-
-
 
 # Attention span reducing content
 
