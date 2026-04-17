@@ -1,3 +1,7 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/piercingtheveil/CoalescedFilterlist)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/piercingtheveil/CoalescedFilterlist)
+
+
 # :badger: Coalesced Filter list
 Should be used for Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam, Little Snitch Mini
 
@@ -8,7 +12,7 @@ Should be used for Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brav
 1. [Overview](#overview)
 2. [Green](#green) - Default protection
 3. [Expert](#expert) - Truly a mystery
-4. [Supporter](#supporter)
+4. [Recommendations](#recommendations)
 5. [About](#about) : [Repository](#repository) - [Support](#support) - [Sponsor](#sponsor)
 6. [Sources](sources.md)
 7. [Disclaimer](#disclaimer)
