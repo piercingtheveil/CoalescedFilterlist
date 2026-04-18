@@ -29,6 +29,7 @@ https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
 
 
+
 # Advertising
 
 https://small.oisd.nl
@@ -63,6 +64,8 @@ https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-c
 https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-notifications.txt
 
 https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
+
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2load.txt
 
 
 # Malware, Security
