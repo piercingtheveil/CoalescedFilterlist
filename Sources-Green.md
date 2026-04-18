@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLSho
 
 https://v.firebog.net/hosts/Easyprivacy.txt
 
-https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/privacy.min.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
 
 https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
