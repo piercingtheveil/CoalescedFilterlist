@@ -118,6 +118,8 @@ https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.
 
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
 
+https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antipup.txt
+
 
 # Miscellaneous
 
