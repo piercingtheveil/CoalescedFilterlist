@@ -146,44 +146,6 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-20
 
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2026.txt
 
-https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt
-
-https://ublockorigin.pages.dev/filters/unbreak.min.txt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
