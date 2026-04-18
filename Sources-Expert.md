@@ -30,6 +30,8 @@ https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/blocklist-referral-native.txt
 
+https://github.com/yokoffing/filterlists/raw/refs/heads/main/privacy_essentials.txt
+
 
 # Advertising
 
