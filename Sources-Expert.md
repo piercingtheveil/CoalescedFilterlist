@@ -28,6 +28,8 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.tx
 
 https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/blocklist-referral-native.txt
+
 
 # Advertising
 
@@ -39,8 +41,6 @@ https://ublockorigin.pages.dev/thirdparties/easylist.txt
 # Annoyances
 
 https://secure.fanboy.co.nz/fanboy-antifonts.txt
-
-https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
 
 https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt
 
