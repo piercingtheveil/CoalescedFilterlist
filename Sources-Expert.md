@@ -106,6 +106,8 @@ https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-li
 
 https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_clear_view.txt
+
 
 # Unsafe and not recommended/potentially unsafe sites and apps
 
