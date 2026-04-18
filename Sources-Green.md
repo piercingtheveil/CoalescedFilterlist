@@ -91,6 +91,9 @@ https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
 
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 
+https://raw.githubusercontent.com/ublockorigin/uassets/master/filters/resource-abuse.txt
+
+
 
 # Attention span reducing content
 
@@ -106,22 +109,6 @@ https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 # Unsafe and not recommended/potentially unsafe sites and apps
 
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
-
-https://raw.githubusercontent.com/alvi-se/ai-ublock-blacklist/master/list.txt
-
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
-
-https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/main/GenAI-Blocklist.txt
-
-https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/adblock.txt
-
-https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/main/uBlacklist.txt
-
-https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/main/uBlacklist.txt
-
-https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/all.txt
-
-https://raw.githubusercontent.com/ublockorigin/uassets/master/filters/resource-abuse.txt
 
 
 # Miscellaneous
