@@ -30,8 +30,9 @@ https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/blocklist-referral-native.txt
 
-https://github.com/yokoffing/filterlists/raw/refs/heads/main/privacy_essentials.txt
+https://github.com/yokoffing/filterlists/raw/main/privacy_essentials.txt
 
+https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
 
 # Advertising
 
@@ -42,7 +43,7 @@ https://ublockorigin.pages.dev/thirdparties/easylist.txt
 
 https://secure.fanboy.co.nz/fanboy-antifonts.txt
 
-https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt
+https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_ai_suggestions.txt
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
 
@@ -68,7 +69,7 @@ https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
 
 https://ublockorigin.pages.dev/filters/filters.min.txt
 
-https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
 
 
 # Malware, Security
@@ -100,15 +101,15 @@ https://raw.githubusercontent.com/ublockorigin/uassets/master/filters/resource-a
 
 # Attention span reducing content
 
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-shorts.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-recommended.txt
 
-https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-distracting.txt
 
 https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 
-https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_clear_view.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt
 
 
 # Unsafe and not recommended/potentially unsafe sites and apps
