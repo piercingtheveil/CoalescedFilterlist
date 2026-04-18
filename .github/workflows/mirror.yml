@@ -1,5 +1,12 @@
 name: Mirror to Codeberg
-on: [push]
+on:
+  workflow_run:
+    workflows: ["Update filter lists"] 
+    types:
+      - completed
+  workflow_dispatch:
+
+  
 jobs:
   mirror:
     runs-on: ubuntu-latest
