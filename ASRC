@@ -286,6 +286,18 @@ youtube.com##+js(rpnt, script, (function serverContract(), if("object"===typeof 
 youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer, ytd-popup-container > tp-yt-paper-dialog > yt-mealbar-promo-renderer:has-text(/Claim Offer|Join now|Not Now|No thanks|YouTube TV|live TV|Live TV|movies|sports|Try it free|unlimited DVR|watch NFL/)
 
 
+Credit - github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations
+
+* facebook.com * block
+* facebook.net * block
+* googletagservices.com * block
+* taboola.com * block
+* twitter.com * block
+facebook.com facebook.com * noop
+facebook.com facebook.net * noop
+twitter.com twitter.com * noop
+
+
 
 Custom 
 
