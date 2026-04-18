@@ -26,9 +26,9 @@ It is up to every man to choose for himself
 
 The table below shows the filter list options and their content blockers. Refer to this when configuring.
 
-| Version | Advertising | Annoyances | Trackers | Malware | Adult | Gambling | Social media | URL Shortener and referral domains (affiliate and tracking links)  | Attention span reducing content | Unsafe and not recommended/potentially unsafe sites and apps | Social media | 
+| Version | Advertising | Annoyances | Trackers | Malware | Adult | Gambling | Social media | URL Shortener | Attention span reducing content | Unsafe and not recommended/potentially unsafe sites and apps | Referral domains (affiliate and tracking links)  | 
 |:--------:|:----:|:------:|:-----:|:----:|:----:|:---:|:------:|:----------:|:----:|:----:|:----:|
-| :seedling:[Green](#green) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | |  |  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| :seedling:[Green](#green) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  | |  |  | :white_check_mark: | :white_check_mark: |  |
 | :evergreen_tree:[Expert](#expert) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 :white_check_mark: blocks the content named in the column caption
