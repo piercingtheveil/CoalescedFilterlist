@@ -39,10 +39,14 @@ The table below shows the filter list options and their content blockers. Refer 
 
 ### :seedling: **Green** - **Default protection** <a name="green"></a>
 
+ [Link](https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/main/Green.txt) [M1](https://chasingdreams.w10.site/Green.txt)
+
 Read: [Which sources are used for this list?](https://github.com/piercingtheveil/CoalescedFilterlist/blob/main/Sources-Green.md)
 
 ---
 
 ### :evergreen_tree: **Expert** - **Truly a mystery** <a name="Expert"></a>
+
+ [Link](https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/main/Expert.txt) [M1](https://chasingdreams.w10.site/Expert.txt)
 
 Read: [Which sources are used for this list?](https://github.com/piercingtheveil/CoalescedFilterlist/blob/main/Sources-Expert.md)
