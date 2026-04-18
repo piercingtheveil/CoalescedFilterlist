@@ -68,6 +68,8 @@ https://ublockorigin.pages.dev/thirdparties/easylist-annoyances.txt
 
 https://ublockorigin.pages.dev/filters/filters.min.txt
 
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt
+
 
 # Malware, Security
 
