@@ -1,10 +1,12 @@
 name: Deploy Filters to Web1
 
 on:
-  push:
-    paths:
-      - '**.txt'
+  workflow_run:
+    workflows: ["Update filter lists"] 
+    types:
+      - completed
   workflow_dispatch:
+
 
 jobs:
   web-deploy:
