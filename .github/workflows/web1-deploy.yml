@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '**.txt'
+  workflow_dispatch:
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -21,5 +22,5 @@ jobs:
         
 
 password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./  # Path to your txt files in the repo
-        server-dir: ./public_html/filters/  # Target folder on your host
+        local-dir: ./ 
+        server-dir: ./
