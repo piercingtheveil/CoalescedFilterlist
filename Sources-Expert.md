@@ -11,8 +11,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.t
 
 https://big.oisd.nl
 
-https://old.reddit.com/r/uBlockOrigin/wiki/solutions
-
 https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/refs/heads/main/ASRC
 
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
@@ -78,8 +76,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.tx
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
-
-https://raw.githubusercontent.com/T145/not-on-my-shift/master/built/abp.txt
 
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
 
