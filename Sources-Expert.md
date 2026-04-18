@@ -79,8 +79,6 @@ https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
 
-https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
-
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
 
 https://ublockorigin.github.io/uAssetsCDN/filters/lan-block.txt
@@ -122,8 +120,6 @@ https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/main/ad
 https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
 
 https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uBlacklist.txt
-
-https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
 
 
 # Miscellaneous
