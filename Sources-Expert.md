@@ -34,6 +34,8 @@ https://github.com/yokoffing/filterlists/raw/main/privacy_essentials.txt
 
 https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
 
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+
 # Advertising
 
 https://ublockorigin.pages.dev/thirdparties/easylist.txt
