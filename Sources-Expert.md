@@ -33,8 +33,6 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/blocklist-r
 
 # Advertising
 
-https://hblock.molinero.dev/hosts_adblock.txt
-
 https://ublockorigin.pages.dev/thirdparties/easylist.txt
 
 
