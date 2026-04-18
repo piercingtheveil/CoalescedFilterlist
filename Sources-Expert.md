@@ -129,8 +129,6 @@ https://raw.githubusercontent.com/popcar2/BadWebsiteBlocklist/refs/heads/main/uB
 
 https://raw.githubusercontent.com/agsimmons/ai-content-blocklist/refs/heads/main/uBlacklist.txt
 
-https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/all.txt
-
 
 # Miscellaneous
 
