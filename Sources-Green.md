@@ -115,6 +115,7 @@ https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_
 
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
 
+https://raw.githubusercontent.com/iam-py-test/my_filters_001/refs/heads/main/antipup.txt
 
 # Miscellaneous
 
