@@ -1,0 +1,25 @@
+yaml
+
+name: Deploy Filters to Web1
+on:
+  push:
+    paths:
+      - '**.txt'
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+
+    - name: 📂 Sync files to Server
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        
+
+password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./  # Path to your txt files in the repo
+        server-dir: ./public_html/filters/  # Target folder on your host
