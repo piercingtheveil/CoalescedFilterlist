@@ -33,7 +33,7 @@ The table below shows the filter list options and their content blockers. Refer 
 
 :white_check_mark: blocks the content named in the column caption
 
-:yellow_square: partially contains the list named in the column caption
+:yellow_square: partially blocks the content named in the column caption
 
 ---
 
