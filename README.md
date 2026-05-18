@@ -13,8 +13,7 @@ Should be used for Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brav
 2. [Green](#green) - Default protection
 3. [Expert](#expert) - Truly a mystery
 4. [Recommendations](#recommendations)
-5. [About](#about) : [Repository](#repository) - [Support](#support) - [Sponsor](#sponsor)
-6. [Sources](sources.md)
+5. [About](#about) : [Repository](#repository)
 7. [Disclaimer](#disclaimer)
 
 ---
