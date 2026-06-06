@@ -15,6 +15,8 @@ https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/main/ASRC
 
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
+https://badblock.celenity.dev/abp/badblock.txt
+
 
 # Trackers
 
