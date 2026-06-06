@@ -7,7 +7,7 @@
 
 # Multipurpose
 
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt
 
 https://big.oisd.nl
 
