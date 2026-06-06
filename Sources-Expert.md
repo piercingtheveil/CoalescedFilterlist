@@ -35,6 +35,8 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.oppo-rea
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
 
+https://badblock.celenity.dev/abp/badblock_plus.txt
+
 # Trackers
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
