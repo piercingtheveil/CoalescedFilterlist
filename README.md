@@ -12,9 +12,8 @@ Should be used for Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brav
 1. [Overview](#overview)
 2. [Green](#green) - Default protection
 3. [Expert](#expert) - Truly a mystery
-4. [Recommendations](#recommendations)
-5. [About](#about) : [Repository](#repository)
-7. [Disclaimer](#disclaimer)
+4. [Disclaimer](#disclaimer)
+5. [Credits](#credits)
 
 ---
 
@@ -44,8 +43,31 @@ Read: [Which sources are used for this list?](https://github.com/piercingtheveil
 
 ---
 
-### :evergreen_tree: **Expert** - **Truly a mystery** <a name="Expert"></a>
+### :evergreen_tree: **Expert** - **Truly a mystery** <a name="expert"></a>
 
  [Link](https://raw.githubusercontent.com/piercingtheveil/CoalescedFilterlist/main/Expert.txt) [M1](https://codeberg.org/piercingtheveil/CoalescedFilterList/raw/branch/main/Expert.txt) [M2](https://chasingdreams.w10.site/Expert.txt)
 
 Read: [Which sources are used for this list?](https://github.com/piercingtheveil/CoalescedFilterlist/blob/main/Sources-Expert.md)
+
+---
+
+### :warning: Disclaimer <a name="disclaimer"></a>
+
+> [!IMPORTANT]
+> The provided DNS blocklists are made available free of charge and without any warranty of any kind. The creator or operator of these blocklists assumes no liability for the accuracy, completeness, timeliness, or suitability of the provided information for any particular purpose. In particular, there is no guarantee that all harmful or unwanted domains are captured, or that legitimate domains will not be erroneously blocked.
+>           
+> Use of the DNS blocklists is strictly at the user's own risk. Any direct or indirect liability for material or non-material damages arising from the use or non-use of the provided lists is expressly excluded, unless such damage is demonstrably the result of deliberate or grossly negligent misconduct on the part of the provider.
+>           
+> The lists are intended solely as an additional, non-exclusive security measure and do not replace the user's own responsibility for due diligence or the use of further protective mechanisms (e.g. firewalls, antivirus software, IDS/IPS systems). Compatibility with specific systems, software solutions, or individual deployment scenarios is not guaranteed.
+>            
+> Redistribution and adaptation of the blocklists is permitted within the scope of the applicable open source license terms. It is the user's responsibility to be aware of and comply with the respective license conditions.
+>            
+> By using the DNS blocklists, you expressly acknowledge and accept these terms and conditions.
+
+---
+
+### :pray: Credits <a name="credits"></a>
+
+Everything here is stolen, please feel free to steal everything here.
+
+
