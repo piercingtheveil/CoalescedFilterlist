@@ -37,6 +37,8 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.t
 
 https://badblock.celenity.dev/abp/badblock_plus.txt
 
+https://divested.dev/hosts-domains-wildcards
+
 # Trackers
 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
