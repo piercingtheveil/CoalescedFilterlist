@@ -29,7 +29,7 @@ jobs:
           ISSUES_URL: https://github.com/piercingtheveil/CoalescedFilterlist/issues
         run: |
           timestamp="$(date -u +"%Y-%m-%d %H:%M UTC")"
-          for f in reports/daily-report.txt reports/summary.txt; do
+          for f in Expert.txt Green.txt; do
             if [ ! -f "$f" ]; then
               echo "File $f not found; creating with header."
             fi
