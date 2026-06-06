@@ -17,6 +17,8 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 https://badblock.celenity.dev/abp/badblock.txt
 
+https://divested.dev/hosts-domains-wildcards
+
 
 # Trackers
 
