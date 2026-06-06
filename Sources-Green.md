@@ -7,7 +7,7 @@
 
 # Multipurpose
 
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt
 
 https://old.reddit.com/r/uBlockOrigin/wiki/solutions
 
