@@ -135,6 +135,8 @@ https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
 
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/refs/heads/main/antipup.txt
 
+https://badblock.celenity.dev/abp/crap.txt
+
 # Miscellaneous
 
 https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt
