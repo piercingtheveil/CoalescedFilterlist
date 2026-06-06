@@ -84,6 +84,8 @@ https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2lo
 
 # Malware, Security
 
+https://urlhaus.abuse.ch/downloads/hostfile
+
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
 
 https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
