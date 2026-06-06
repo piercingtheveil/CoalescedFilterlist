@@ -93,6 +93,8 @@ https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
 
 # Malware, Security
 
+https://urlhaus.abuse.ch/downloads/hostfile
+
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
