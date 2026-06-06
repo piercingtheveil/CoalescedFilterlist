@@ -127,7 +127,7 @@ https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_clear_view.txt
 
 
-# Unsafe and not recommended/potentially unsafe sites and apps
+# Unsafe and not recommended / potentially unsafe sites and apps
 
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
 
