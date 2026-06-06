@@ -1,0 +1,60 @@
+name: Update header
+
+on:
+   push:    
+     paths:      
+       - 'Expert.txt'      
+       - 'Green.txt'
+   workflow_dispatch: {}     
+
+
+jobs:
+  prepend-header:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Exit if last commit was by the actions bot
+        run: |
+          last_email="$(git log -1 --pretty=format:'%ae')"
+          if [ "$last_email" = "41898282+github-actions[bot]@users.noreply.github.com" ]; then
+            echo "Last commit by actions bot — skipping to avoid loop."
+            exit 0
+          fi
+
+      - name: Prepend header to example files
+        env:
+          ISSUES_URL: https://github.com/piercingtheveil/CoalescedFilterlist/issues
+        run: |
+          timestamp="$(date -u +"%Y-%m-%d %H:%M UTC")"
+          for f in reports/daily-report.txt reports/summary.txt; do
+            if [ ! -f "$f" ]; then
+              echo "File $f not found; creating with header."
+            fi
+            tmp="$(mktemp)"
+            {
+              echo "Updated: $timestamp"
+              echo "Issues: $ISSUES_URL"
+              echo ""
+              if [ -f "$f" ]; then
+                # If you want to remove an existing header of three lines, uncomment the next line:
+                # tail -n +4 "$f"
+                cat "$f"
+              fi
+            } > "$tmp"
+            mv "$tmp" "$f"
+            git add "$f"
+          done
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Prepend header (timestamp + issues link) to reports"
+            git push
+          fi
