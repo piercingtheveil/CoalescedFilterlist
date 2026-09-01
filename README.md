@@ -3,7 +3,7 @@
 
 
 # :badger: Coalesced Filter list
-Should be used for Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam, Little Snitch Mini
+Can be used with Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (aggressive mode only), AdBlock-Fast, AdNauseam, Little Snitch Mini
 
 ---
 
