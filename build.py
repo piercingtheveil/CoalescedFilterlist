@@ -18,9 +18,9 @@ def build_list(source_file, output_file, title):
     # --- START OF THE FINAL FILE HEADER ---
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     merged.append(f"! {'='*60}")
-    merged.append(f"! {title.upper()} LIST")
+    merged.append(f"! Title: {title.upper()} LIST")
     merged.append(f"! Generated on: {now}")
-    merged.append(f"! Source file: {source_file}")
+    merged.append(f"! Homepage: https://github.com/piercingtheveil/CoalescedFilterlist")
     merged.append(f"! {'='*60}")
     merged.append("") 
     # --- END OF THE FINAL FILE HEADER ---
