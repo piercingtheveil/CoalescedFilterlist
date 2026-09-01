@@ -19,6 +19,7 @@ https://badblock.celenity.dev/abp/badblock.txt
 
 https://divested.dev/hosts-domains-wildcards
 
+https://cdn.jsdelivr.net/gh/luckmagnet/1Hosts@master/Lite/adblock.txt
 
 # Trackers
 
@@ -90,7 +91,7 @@ https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2lo
 
 https://urlhaus.abuse.ch/downloads/hostfile
 
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 
 https://raw.githubusercontent.com/ngoomie/uBlacklist-suspicious-downloads/main/list.txt
 
@@ -140,6 +141,8 @@ https://raw.githubusercontent.com/iam-py-test/my_filters_001/refs/heads/main/ant
 https://badblock.celenity.dev/abp/crap.txt
 
 # Miscellaneous
+
+https://badblock.celenity.dev/abp/nsa-blocklist-ng.txt
 
 https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt
 
