@@ -1,5 +1,6 @@
 import requests
 from pathlib import Path
+from datetime import datetime
 
 def load_urls(path):
     urls = []
@@ -9,15 +10,20 @@ def load_urls(path):
             urls.append(line)
     return urls
 
-
 def build_list(source_file, output_file, title):
     urls = load_urls(source_file)
     merged = []
     seen = set()
 
-    merged.append(f"! {title}")
-    merged.append("! Auto-generated from source lists")
-    merged.append("")
+    # --- START OF THE FINAL FILE HEADER ---
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    merged.append(f"! {'='*60}")
+    merged.append(f"! {title.upper()} LIST")
+    merged.append(f"! Generated on: {now}")
+    merged.append(f"! Source file: {source_file}")
+    merged.append(f"! {'='*60}")
+    merged.append("") 
+    # --- END OF THE FINAL FILE HEADER ---
 
     session = requests.Session()
     session.headers.update({"User-Agent": "list-builder/1.0"})
@@ -38,7 +44,7 @@ def build_list(source_file, output_file, title):
             merged.append("")
 
         except Exception as e:
-            merged.append(f"! Failed to fetch {url}: {e}")
+            merged.append(f"! ERROR: Failed to fetch {url}: {e}")
             merged.append("")
 
     out_path = Path(output_file)
