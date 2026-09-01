@@ -39,19 +39,29 @@ https://badblock.celenity.dev/abp/badblock_plus.txt
 
 https://divested.dev/hosts-domains-wildcards
 
+https://cdn.jsdelivr.net/gh/luckmagnet/1Hosts@master/Xtra/adblock.txt
+
 # Trackers
 
-https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
+https://badblock.celenity.dev/abp/find-my.txt
+
+https://badblock.celenity.dev/abp/fonts.txt
+
+https://badblock.celenity.dev/abp/click-tracking.txt
 
 https://v.firebog.net/hosts/Easyprivacy.txt
 
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+https://secure.fanboy.co.nz/fanboy-antifonts.txt
 
 https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/blocklist-referral-native.txt
 
-https://github.com/yokoffing/filterlists/raw/main/privacy_essentials.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt
 
 https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
 
@@ -63,8 +73,6 @@ https://ublockorigin.pages.dev/thirdparties/easylist.txt
 
 
 # Annoyances
-
-https://secure.fanboy.co.nz/fanboy-antifonts.txt
 
 https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_ai_suggestions.txt
 
@@ -96,6 +104,8 @@ https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
 
 
 # Malware, Security
+
+https://badblock.celenity.dev/abp/doh.txt
 
 https://urlhaus.abuse.ch/downloads/hostfile
 
@@ -139,14 +149,18 @@ https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.
 
 # Unsafe and not recommended / potentially unsafe sites and apps
 
+https://badblock.celenity.dev/abp/drm.txt
+
+https://badblock.celenity.dev/abp/crap.txt
+
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt
 
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antipup.txt
 
-https://badblock.celenity.dev/abp/crap.txt
-
 
 # Miscellaneous
+
+https://badblock.celenity.dev/abp/nsa-blocklist-ng.txt
 
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
 
