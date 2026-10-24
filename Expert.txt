@@ -1,6 +1,6 @@
 ! ============================================================
 ! Title: EXPERT LIST
-! Generated on: 2026-10-23 19:52
+! Generated on: 2026-10-24 04:03
 ! Homepage: https://github.com/piercingtheveil/CoalescedFilterlist
 ! ============================================================
 
@@ -246615,12 +246615,12 @@
 ||zzzperform.com^
 
 ! Source: https://big.oisd.nl
-! Version: 202610231906
+! Version: 202610240306
 ! Title: oisd big
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 236071
-! Last modified: 2026-10-23T19:06:30+0000
+! Entries: 236120
+! Last modified: 2026-10-24T03:06:09+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -252312,6 +252312,7 @@
 ||activexsoftwares.com^
 ||activitationbhdaccesobankig.iceiy.com^
 ||activities.niagara.comedycentral.com^
+||activity-eu.com^
 ||activity.eventlink.to^
 ||activity.tuipear.com^
 ||activitydmy.icu^
@@ -254987,6 +254988,7 @@
 ||agregapoldre.com^
 ||agri-mobile4.bolt.host^
 ||agri-wealth.net^
+||agriban-money.com^
 ||agribank.info^
 ||agribanks.link^
 ||agribanks3.asia^
@@ -256379,6 +256381,7 @@
 ||alfajrapparel.com^
 ||alfalaival.com^
 ||alfaliaval.com^
+||alfamartreward.com^
 ||alfamontante.net^
 ||alfamontante.shop^
 ||alfanora.com^
@@ -256615,6 +256618,7 @@
 ||allegro.0239128gh0.click^
 ||allegro.0312098h45.forum^
 ||allegro.0908456495868888.click^
+||allegro.1-h059f30h.click^
 ||allegro.10230129y4hhh.study^
 ||allegro.1026u5h5343.casa^
 ||allegro.102988g8g8g.pl^
@@ -256634,6 +256638,7 @@
 ||allegro.1290hh905982.rest^
 ||allegro.130298h9465h4.click^
 ||allegro.203t8923g92.click^
+||allegro.20h98fg4uf3.mom^
 ||allegro.2131239129ghgh.qpon^
 ||allegro.230910h45945.forum^
 ||allegro.23129h9.pl^
@@ -256656,6 +256661,7 @@
 ||allegro.2992ghohgoho.cam^
 ||allegro.3029g99g.pl^
 ||allegro.3299g88g2909.pl^
+||allegro.340599320-0h.forum^
 ||allegro.348ih7u5hij.beer^
 ||allegro.34t873784.click^
 ||allegro.38128y9349182.qpon^
@@ -256663,11 +256669,13 @@
 ||allegro.4-b0-b0s2.lat^
 ||allegro.4230102094.study^
 ||allegro.4787155.lat^
+||allegro.4874211.lat^
 ||allegro.4939h45.forum^
 ||allegro.52300t92g3223.qpon^
 ||allegro.53423199gg88.biz^
 ||allegro.5785218.lat^
 ||allegro.5787215.lat^
+||allegro.5818521.lat^
 ||allegro.652644.sbs^
 ||allegro.712461246129124.rest^
 ||allegro.7312945h54.qpon^
@@ -256688,6 +256696,7 @@
 ||allegro.9392130120.casa^
 ||allegro.9812831204.qpon^
 ||allegro.998827gi.click^
+||allegro.99h50f2.casa^
 ||allegro.9df8383.click^
 ||allegro.9gihi5h4.casa^
 ||allegro.ad8127899h5.pl^
@@ -256727,6 +256736,7 @@
 ||allegro.nolak238121.click^
 ||allegro.o3459539423h.courses^
 ||allegro.ofer93201.club^
+||allegro.ofera-111021a.top^
 ||allegro.ofera-1893.top^
 ||allegro.ofera-lokala1921111245.top^
 ||allegro.oferata-pll-373874838.top^
@@ -256748,6 +256758,7 @@
 ||allegro.petnwa2181929.study^
 ||allegro.pi-udostepniona83745.lol^
 ||allegro.pl-382942.top^
+||allegro.pl-lokalna-ofeta9xv17yj75v0.shop^
 ||allegro.pl-mkl1.sbs^
 ||allegro.pl-oferta-69375923484.top^
 ||allegro.pl-oferta14556543.click^
@@ -256773,6 +256784,7 @@
 ||allegro.pl209381232jx2317vzx-218713.shop^
 ||allegro.pl23918xz3315vj1298.icu^
 ||allegro.pl2831923731vjz3134zx321134jk21.rest^
+||allegro.pl452123125fsda2314.top^
 ||allegro.pl47351.top^
 ||allegro.pl823jx09z2304jy381.shop^
 ||allegro.pl88334.top^
@@ -256859,11 +256871,13 @@
 ||allegrolokalnie.40127447654342.shop^
 ||allegrolokalnie.438zimq41.click^
 ||allegrolokalnie.4787155.lat^
+||allegrolokalnie.4874211.lat^
 ||allegrolokalnie.512581.top^
 ||allegrolokalnie.5537127.rest^
 ||allegrolokalnie.57162055.shop^
 ||allegrolokalnie.5785218.lat^
 ||allegrolokalnie.5787215.lat^
+||allegrolokalnie.5818521.lat^
 ||allegrolokalnie.6143897201.click^
 ||allegrolokalnie.652644.sbs^
 ||allegrolokalnie.712461246129124.rest^
@@ -256901,6 +256915,7 @@
 ||allegrolokalnie.dk-oferta729450.sbs^
 ||allegrolokalnie.dk-oferta8294.sbs^
 ||allegrolokalnie.dk-produkt251948.shop^
+||allegrolokalnie.f8rprodukt.shop^
 ||allegrolokalnie.i837fnjf746rn38hg47394.rest^
 ||allegrolokalnie.id-2388432snm2.sbs^
 ||allegrolokalnie.id93782346383253.rest^
@@ -256960,6 +256975,7 @@
 ||allegrolokalnie.nr-23894sm23.sbs^
 ||allegrolokalnie.nr-28szj234.sbs^
 ||allegrolokalnie.nr-h2n-8sn4-sn23.sbs^
+||allegrolokalnie.ofera-111021a.top^
 ||allegrolokalnie.ofera-1893.top^
 ||allegrolokalnie.ofera-99932xd.top^
 ||allegrolokalnie.ofera-lokala1921111245.top^
@@ -256967,7 +256983,6 @@
 ||allegrolokalnie.oferta-28458091-pl.click^
 ||allegrolokalnie.oferta-709941.sbs^
 ||allegrolokalnie.oferta-84239232-pl.click^
-||allegrolokalnie.oferta-8754211.cfd^
 ||allegrolokalnie.oferta-lokalnie-pl.sbs^
 ||allegrolokalnie.oferta-pl537394949.sbs^
 ||allegrolokalnie.oferta05753842.shop^
@@ -257065,6 +257080,7 @@
 ||allegrolokalnie.pl-8471241.cfd^
 ||allegrolokalnie.pl-862634.click^
 ||allegrolokalnie.pl-871t41927412.cfd^
+||allegrolokalnie.pl-876523.sbs^
 ||allegrolokalnie.pl-928265272event66241272.biz^
 ||allegrolokalnie.pl-98421412.cfd^
 ||allegrolokalnie.pl-aukcja-39589285934.sbs^
@@ -257076,6 +257092,7 @@
 ||allegrolokalnie.pl-kup-produkt657129.shop^
 ||allegrolokalnie.pl-ld8382929.click^
 ||allegrolokalnie.pl-lkln.shop^
+||allegrolokalnie.pl-lokalna-ofeta9xv17yj75v0.shop^
 ||allegrolokalnie.pl-mkl1.sbs^
 ||allegrolokalnie.pl-odbior-platnosci-7321.click^
 ||allegrolokalnie.pl-oferata-4728285782.top^
@@ -257206,6 +257223,7 @@
 ||allegrolokalnie.pl2831923731vjz3134zx321134jk21.rest^
 ||allegrolokalnie.pl3422543.shop^
 ||allegrolokalnie.pl43123434.lol^
+||allegrolokalnie.pl452123125fsda2314.top^
 ||allegrolokalnie.pl45342.shop^
 ||allegrolokalnie.pl47351.top^
 ||allegrolokalnie.pl543.shop^
@@ -262822,6 +262840,7 @@
 ||awuan.com^
 ||awuedu.org^
 ||awuryhbdyser.eu^
+||awvgj.com^
 ||awwrwrpodsnmcjd.weebly.com^
 ||awxmyvbdep.com^
 ||awxymatkud.com^
@@ -264643,6 +264662,7 @@
 ||batterykeepingpalm.com^
 ||batterymart.com.au^
 ||battik-bowwow.xyz^
+||battledansuli.com^
 ||battlemag.es^
 ||battlemechcommand.com^
 ||battlesavio.ddns.net^
@@ -269996,6 +270016,7 @@
 ||brelliozoia.net^
 ||brelmandi.com^
 ||breloadingmrank-58ey9h.s3.eu-west-1.amazonaws.com^
+||brelzunoreth.sbs^
 ||bremertonweaverssociety.com^
 ||bremifin.net^
 ||bremqut.shop^
@@ -273889,6 +273910,7 @@
 ||casestudyouiazza.pages.dev^
 ||caseyarchitecturallighting.com^
 ||caseypierceportraitco.com^
+||caseys-freeprizes.com^
 ||casflex.site^
 ||cash-advance.now-cash.com^
 ||cash-box-casino.fr^
@@ -274739,6 +274761,7 @@
 ||ccc-hu.shop^
 ||ccc-pln.shop^
 ||ccc.sys.intl.xiaomi.com^
+||cccedgy-pl.shop^
 ||cccedgy.shop^
 ||ccceu-shoes.shop^
 ||cccfashions-pl.shop^
@@ -279355,6 +279378,7 @@
 ||congdongfifa.com^
 ||congenial-goggles-dpuw9y8aky56.edgeone.dev^
 ||congenialsumatranrhinoceros.htmlpasta.com^
+||conglisola.store^
 ||conglobatvvions.business^
 ||conglolife.com^
 ||congnghevienthong.com^
@@ -288531,7 +288555,6 @@
 ||dropboxfilebradandsteph.weebly.com^
 ||dropboxsecuredocumentsuploaded.com.donrapi.com^
 ||dropforgetheater.org^
-||droplbox.com^
 ||dropme.pro^
 ||droponix.com^
 ||droppapers.net^
@@ -291994,6 +292017,7 @@
 ||equation.cutecheapshoes.com^
 ||equationsolved.com^
 ||equatorbridge.info^
+||equeslltrians.info^
 ||equi-gaintor-ai.pro^
 ||equidiaa.fr^
 ||equiflex-invest.com^
@@ -296468,8 +296492,6 @@
 ||finseedv.info^
 ||finserveconsulting.com^
 ||finsightpro.net^
-||finsy0-reiciendis82.cfd^
-||finsy7-quisquam53.cfd^
 ||fintarioso.com^
 ||fintarioso.net^
 ||fintaro.lovable.app^
@@ -296655,6 +296677,7 @@
 ||firmereditaje.org^
 ||firmesolution.click^
 ||firmetriontrade.com^
+||firmetrocanca.com^
 ||firmeziocapital.net^
 ||firmitasbase.com^
 ||firmlogicty.pro^
@@ -304338,6 +304361,7 @@
 ||groceryshootworld.com^
 ||grockartouz.com^
 ||groconfood.de^
+||groeielatie.net^
 ||groeikompas-ai.live^
 ||groeikompas-app.live^
 ||groeikompasai-app.live^
@@ -305920,6 +305944,7 @@
 ||harmonybitspireplatform.com^
 ||harmonybitspirepro.com^
 ||harmrietmeijer.nl^
+||harmsbureaucratizaticcons.info^
 ||harmttlessly.info^
 ||harnevor.com^
 ||harnivo.cfd^
@@ -308185,6 +308210,7 @@
 ||hopelab.digital^
 ||hopelabs.digital^
 ||hopepatiently.com^
+||hopeswift.digital^
 ||hopi.hopto.org^
 ||hopital-nord-alsace.fr^
 ||hopitalrennes.fr^
@@ -309827,6 +309853,7 @@
 ||ideas-more.com.sa^
 ||ideasbyeden.co.uk^
 ||ideastart.ru^
+||ideasuper.digital^
 ||ideationary.com^
 ||ideawheel.com^
 ||idee-wohnen.info^
@@ -310886,6 +310913,7 @@
 ||imprnjmp.taboola.com^
 ||improbableabsolve.com^
 ||impromptooapp.net^
+||improsanci.store^
 ||improtants.space^
 ||improvementmanagement360.com^
 ||improvesbridge.wixstudio.com^
@@ -310999,6 +311027,7 @@
 ||in8g.covid19-testung.net^
 ||ina.am^
 ||inaastrumentationslamperses.info^
+||inabiletota.store^
 ||inabv.weebly.com^
 ||inactionabridgeobjective.com^
 ||inad.com^
@@ -314909,6 +314938,7 @@
 ||joliamon.com^
 ||jolivatr.com^
 ||jolkea.click^
+||jollibeesurprise.com^
 ||jolly-hill-053171610.3.azurestaticapps.net^
 ||jolly-kangaroo-53835c.netlify.app^
 ||jolly-meninsky-cd85a6.netlify.com^
@@ -316606,6 +316636,7 @@
 ||kc6.com^
 ||kcbycsngsb.shop^
 ||kccec.com.kw^
+||kccnowingnesses.info^
 ||kcdiizzz.com^
 ||kcdk97m-c02m.vercel.app^
 ||kcercv05o9um1sww.pages.dev^
@@ -319400,6 +319431,7 @@
 ||labsbestnet.digital^
 ||labsbesttrade.digital^
 ||labsbestwave.digital^
+||labsbluelink.digital^
 ||labsbold.digital^
 ||labsboldsky.digital^
 ||labsboltplus.digital^
@@ -319955,6 +319987,7 @@
 ||lastikturk.com^
 ||lastmeasure.zoy.org^
 ||lastrada-sindorf.de^
+||lastreza-custody.sbs^
 ||lastrorendistoria.com^
 ||lastsupper.co.tz^
 ||lastt.pathofhope.de^
@@ -320097,6 +320130,7 @@
 ||lawresearchservices.com^
 ||lawsfirmyk.com^
 ||lawsuitcovid19.com^
+||lawswn.com^
 ||lawyercoronavirusnewyork.com^
 ||lawyerdirectorytexas.com^
 ||lawyermeshal.online^
@@ -321029,6 +321063,7 @@
 ||letswinstuff.com^
 ||lettaskitchen.com^
 ||letter.parentem.com^
+||lettevesic.store^
 ||letthemeatplastic.com^
 ||lettheupgradebegin.com^
 ||letuslearncoding.com^
@@ -321438,6 +321473,7 @@
 ||lifeislifebodrum.com^
 ||lifelabs.vn^
 ||lifelonghealthclub.com^
+||lifeminilabs.digital^
 ||lifenetusa.com^
 ||lifenew.digital^
 ||lifenews24.com^
@@ -323700,6 +323736,7 @@
 ||louthfield.eu^
 ||loutrevalleyfarmguesthouse.com^
 ||louvretickets.fr^
+||louwekapitange.com^
 ||louwhoriroud.net^
 ||lovalore.com^
 ||lovat-knit.shop^
@@ -324741,7 +324778,6 @@
 ||luxlcoregroup.com^
 ||luxnltabakshop.sumupstore.com^
 ||luxonclutch.de^
-||luxora.qpon^
 ||luxorafinancial-fr.live^
 ||luxorafinancial.digital^
 ||luxorafinancial.live^
@@ -324891,6 +324927,7 @@
 ||lyndyn-wealthmere.live^
 ||lyndynwealthmere.com^
 ||lyndynwealthmere.live^
+||lyngenlantern.top^
 ||lynildvinstek.net^
 ||lynnehudsonbooks.com^
 ||lynnscheid62.com^
@@ -328912,6 +328949,7 @@
 ||minifyurl.net^
 ||minigamers.nl^
 ||minimalis.shop^
+||minimalvform.shop^
 ||minimesactivities.com^
 ||minimizeallegiance.com^
 ||minimomo.fun^
@@ -329238,6 +329276,7 @@
 ||misbhvoutlet.shop^
 ||misc.wcd.qq.com^
 ||miscaros.cm-fundao.pt^
+||mischargiwwng.info^
 ||misciireations.info^
 ||miscttreated.info^
 ||miscursos.net^
@@ -334283,6 +334322,7 @@
 ||news24fr.news^
 ||news315.shop^
 ||news365.com.co^
+||news375.shop^
 ||news40.shop^
 ||newsatfirst.com^
 ||newsbluelight.digital^
@@ -337710,6 +337750,8 @@
 ||oferta-8473-pl.shop^
 ||oferta-8495321.cfd^
 ||oferta-8499-pl.shop^
+||oferta-8754211.cfd^
+||oferta-8764572.cfd^
 ||oferta-913306702.icu^
 ||oferta-938453ns74.club^
 ||oferta-9488-pl.shop^
@@ -338399,6 +338441,7 @@
 ||olmytrdz.usw-1.sealos.app^
 ||oload.cloud^
 ||olofragrance.live^
+||ololiuhqddui.info^
 ||olox-repo5.k3kmyh.casa^
 ||olperon.com^
 ||olsavriq.com^
@@ -338523,6 +338566,7 @@
 ||omavero-gov.firebaseapp.com^
 ||omavero-gov.web.app^
 ||ombrelatika.com^
+||ombretrich.store^
 ||ombreworks.shop^
 ||ombryx.vip^
 ||omdftwppl56.vercel.app^
@@ -341711,6 +341755,7 @@
 ||paperholder-network.web.app^
 ||paperholding-ethereum.web.app^
 ||paperrivet.vip^
+||papersemih.store^
 ||papervolcano.vip^
 ||papier-toner.lovable.app^
 ||papilio-ad.s3.amazonaws.com^
@@ -342100,6 +342145,7 @@
 ||pastoralnzzessestergiversations.info^
 ||pastoralpine.com^
 ||pastpella.com^
+||pastuimpaz.store^
 ||paszto.ekif.hu^
 ||pat.farvd.com^
 ||patagonfondivex.net^
@@ -343678,6 +343724,7 @@
 ||phonefind.info^
 ||phonemex.com^
 ||phonemmsconctact01.firebaseapp.com^
+||phonepe-cashgift.com^
 ||phoneprivacycloud.com^
 ||phoneringtones.info^
 ||phones4less.com^
@@ -345602,6 +345649,7 @@
 ||poczta-opole-pl.framer.media^
 ||poczta-polska.orrrder.shop^
 ||poczta-polska.payflow-poland2.shop^
+||poczta-polska.paypay-pl1.eu.cc^
 ||poczta-polska.payu-nitro6.eu.cc^
 ||poczta-polska.top^
 ||poczta-pomoc.netlify.app^
@@ -353285,6 +353333,7 @@
 ||ranksolid.club^
 ||ranmureed.com^
 ||rann.fr^
+||ranninproofed.info^
 ||rantaradaneccoprot.msdy.info^
 ||rantcasino.fr^
 ||ranterivaa.com^
@@ -356468,6 +356517,7 @@
 ||robledofondia.net^
 ||roblefondorio.net^
 ||robleinverencia.com^
+||roblevalorio.com^
 ||roblhox.com^
 ||robllox.ru.com^
 ||robllox.shop^
@@ -356861,6 +356911,7 @@
 ||rondex.click^
 ||rondpoint-trajet.firebaseapp.com^
 ||rondpoint-trajet.web.app^
+||rondurasecurities.com^
 ||roneassur.fr^
 ||ronezaki.com^
 ||ronezaro.com^
@@ -358593,6 +358644,7 @@
 ||saeve.fr^
 ||saf-oil.ru^
 ||safafsafsafasfasfsafsaf4241.pages.dev^
+||safak-birikimli.sbs^
 ||safakbirikac.net^
 ||safakodencesi.net^
 ||safakteknikyapi.com^
@@ -364076,6 +364128,7 @@
 ||sizeersales-pl.shop^
 ||sizeersales.shop^
 ||sizeerssport.sbs^
+||sizeerurban.shop^
 ||sizohia.lovable.app^
 ||sizzer.krea-sell.shop^
 ||sizzlingdates.com^
@@ -366235,6 +366288,7 @@
 ||sosogn-21fdd.firebaseapp.com^
 ||sosogn-21fdd.web.app^
 ||sosoxnzocpioua7qogte.maherstcottage.com.au^
+||sospiarchi.store^
 ||sospipettl.store^
 ||sospref.fr^
 ||sostarts-trezonav.wixstudio.com^
@@ -374360,6 +374414,7 @@
 ||telemetryloop.net^
 ||telemetryverification.net^
 ||telemiracl.work^
+||telemodern.click^
 ||telemoment.help^
 ||telemoment.shop^
 ||telemoment.work^
@@ -374394,6 +374449,7 @@
 ||teleolxsbv.click^
 ||teleolxsbv.help^
 ||teleolxsbv.shop^
+||teleomlixx.shop^
 ||teleonxkxs.help^
 ||teleorgani.click^
 ||teleorgani.club^
@@ -374589,6 +374645,7 @@
 ||teleybecro.shop^
 ||teleyoungp.beer^
 ||teleyoungp.bond^
+||teleyoungp.click^
 ||teleyoungp.cyou^
 ||teleyoungp.help^
 ||teleyoutho.click^
@@ -378579,7 +378636,6 @@
 ||tohacks.com^
 ||tohkyo.shop^
 ||tohofui.pro^
-||tohumlarlatifekmekcioglukurankursu.com^
 ||tohuusin.info^
 ||toiletpaperprice.com^
 ||toiletpaperprices.com^
@@ -380743,6 +380799,7 @@
 ||tropeziapalace-casino.fr^
 ||tropeziapalacecasino.fr^
 ||tropicacasino.fr^
+||tropicalizedssstinking.info^
 ||tropicaltide.xyz^
 ||tropicalvibemusic.com^
 ||tropicawwbattoir.info^
@@ -383367,6 +383424,7 @@
 ||unresolvedbacks.com^
 ||unresolvedcognateforth.com^
 ||unresolvedprotohistoriazzn.info^
+||unrightxxeousnesses.info^
 ||unrivalled.net^
 ||unrive.io^
 ||unrqqiddledwhisker.info^
@@ -385788,6 +385846,7 @@
 ||velunn.com^
 ||velunorava.com^
 ||velunoza.shop^
+||veluwecourier.top^
 ||velvako.shop^
 ||velvanora.shop^
 ||velveqtoak.shop^
@@ -387181,6 +387240,7 @@
 ||vinted.111000101.me^
 ||vinted.1532936.cc^
 ||vinted.18827.help^
+||vinted.2329632936.com^
 ||vinted.283832.com^
 ||vinted.28491763.shop^
 ||vinted.3111.rest^
@@ -387208,6 +387268,7 @@
 ||vinted.accountverif-finalstep.click^
 ||vinted.ascdel.top^
 ||vinted.auth-check.click^
+||vinted.cixnjxh.com^
 ||vinted.cofermatirecibor.help^
 ||vinted.datenuberprufung24515132421.com^
 ||vinted.deal211.com^
@@ -387244,6 +387305,7 @@
 ||vinted.online-order.top^
 ||vinted.ord3raccept.icu^
 ||vinted.order-info84719.com^
+||vinted.order3637.me^
 ||vinted.order460.com^
 ||vinted.order506.me^
 ||vinted.order8178.me^
@@ -387254,6 +387316,7 @@
 ||vinted.safe-onboarding.lat^
 ||vinted.sale-379201.me^
 ||vinted.sale373.help^
+||vinted.sale53423.com^
 ||vinted.sale587.me^
 ||vinted.sale821.me^
 ||vinted.sale826.help^
@@ -395151,6 +395214,7 @@
 ||yangzirivercorp.com.au^
 ||yaniatbisb.duckdns.org^
 ||yanjiaoo2o.com^
+||yankebivac.store^
 ||yannahome.com^
 ||yannduval.shop^
 ||yannick.delamarre.free.fr^
@@ -396649,6 +396713,7 @@
 ||zapmetamstsc.web.app^
 ||zapost-id2981.firebaseapp.com^
 ||zapost-id2981.web.app^
+||zappka.playtop.bar^
 ||zapreal.com^
 ||zapros.com^
 ||zapsolve.com^
@@ -475116,7 +475181,6 @@ actievoorrodekruisijsselland.nl##body:style(overflow: auto!important)
 ad.nl###pg-accept-btn
 ad.nl###stack-accept-all
 ad.nl^$removeparam=referrer
-privacyguides.org^$removeparam=m
 allegro.pl###opbox-gdpr-consents-modal
 allegro.pl##.mh36_0.mlkp_ag.mnyp_co.mx7m_1.msts_pt.mh36_8.mj7a_8.mvrt_8.mg9e_8.m389_6m.mpof_ki
 allegro.pl##[data-role="accept-consent"]
@@ -475435,6 +475499,7 @@ postnl.nl##.pci-cookie-button-inner .pci-button--primary
 privacyguides.net###announcement-bar-root
 privacyguides.org###announcement-bar-root
 privacyguides.org##[data-md-component="announce"]
+privacyguides.org^$removeparam=m
 puzzelfit.be###pg-accept-btn
 puzzelfit.be###stack-accept-all
 pzc.nl###pg-accept-btn
@@ -490757,6 +490822,7 @@ ziekenhuischeck.nl##.toaster-overlay
 ||host-care.com^
 ||host-coinbase.com^
 ||hosted.okayanalytics.com^
+||hostedemail.com^
 ||hostel.town^
 ||hoster-kg.com^
 ||hosthavoc.com^
@@ -491421,6 +491487,7 @@ ziekenhuischeck.nl##.toaster-overlay
 ||internalserviceslinks.com^
 ||internalsystemfix.com^
 ||internationalexecutivesearch.net^
+||internationalvillage.eu^
 ||internet-measurement.com^
 ||internetabsplus.com^
 ||internetmarketingninjas.com^
@@ -493447,6 +493514,7 @@ ziekenhuischeck.nl##.toaster-overlay
 ||luxecasinoworld.com^
 ||luxenburgcasinobonuses.com^
 ||luxevegascasino.com^
+||luxora.qpon^
 ||luxury.casino^
 ||luxurygoodscaree.com^
 ||luxurysierranevada.com^
@@ -493960,7 +494028,6 @@ ziekenhuischeck.nl##.toaster-overlay
 ||mediaintelligence.de^
 ||medialightbox.com^
 ||mediametrics.ru^
-||mediapart.fr^
 ||mediaplayerclassic.pro^
 ||mediaplus.nl^
 ||mediatechnologies.uk^
@@ -494800,6 +494867,7 @@ ziekenhuischeck.nl##.toaster-overlay
 ||n8s.jp^
 ||n91.casino^
 ||naardekern.com^
+||nadacekj.cz^
 ||nadallas.com^
 ||nadengi5.casino^
 ||nadengi6.casino^
@@ -501025,6 +501093,7 @@ ziekenhuischeck.nl##.toaster-overlay
 ||tops24.casino^
 ||topseos.com^
 ||topshareware.com^
+||topsoftwaredevelopmentcompany.com^
 ||topstukkendepodcast.nl^
 ||topstyle.me^
 ||toptracker.ru^
@@ -2301882,8 +2301951,8 @@ $removeparam=pp,domain=youtube.com|youtu.be
 ! Source: https://ublockorigin.pages.dev/thirdparties/easylist.txt
 ! Title: EasyList
 ! Expires: 6 days (update frequency)
-! Last modified: Fri, 23 Oct 2026 17:27:42 +0000
-! Diff-Path: ../patches/2026.10.23.1094.patch#easylist
+! Last modified: Sat, 24 Oct 2026 00:02:24 +0000
+! Diff-Path: ../patches/2026.10.24.33.patch#easylist
 ! Diff-Expires: 317 minutes
 ! *** easylist:template_header.txt ***
 ! Please report any unblocked adverts or problems
@@ -2317292,6 +2317361,7 @@ browsershots.org#@#.advert_area
 ||1c6fd11ca2.com^
 ||1f3912cb04.com^
 ||1gcke6g87481v6mk2uggxj6.rest^
+||1j5ohgb9tyocwjcu.rest^
 ||1p4z8vhhfh7cymq7klu26.rest^
 ||1p81bmc2ux25lvtl3nr.rest^
 ||1r3vwgu3wofhymygetop97rf.rest^
@@ -2317346,6 +2317416,7 @@ browsershots.org#@#.advert_area
 ||6h8hm3xc152i3muepz82q3.rest^
 ||6hm69rtx3xnhup9mcz2e.rest^
 ||6jeh1npeiiw64err7j.rest^
+||6jumq8b12z17mfnu5.rest^
 ||6l5oguvm3x7pixp8ik7t7.rest^
 ||6mcw92wirhxnnqcw2.rest^
 ||6ubmtezxemvqvf.rest^
@@ -2317423,6 +2317494,7 @@ browsershots.org#@#.advert_area
 ||affiedlastre.cyou^
 ||agonalarikara.cyou^
 ||agqmshrhkvitr.com^
+||agrooffencer.com^
 ||aguapunkt.cyou^
 ||aguvgyqsdak.com^
 ||agymcxmyxtfeo.space^
@@ -2317430,6 +2317502,7 @@ browsershots.org#@#.advert_area
 ||ahdoiwnqxqwhe.online^
 ||ahqwswioi.com^
 ||ahsffnyanivooqh.com^
+||ahxeukmkoexjx.space^
 ||aikyplpxrdj.com^
 ||airbagyezzy.cfd^
 ||airingscarts.shop^
@@ -2317447,6 +2317520,7 @@ browsershots.org#@#.advert_area
 ||alcaldelatheepublish.qpon^
 ||alcannalinguet.cyou^
 ||alcyctrwikbsic.com^
+||alengthmoho.cfd^
 ||alexasdisbuds.shop^
 ||algazelabasgavel.cfd^
 ||algificunkist.cfd^
@@ -2317481,6 +2317555,7 @@ browsershots.org#@#.advert_area
 ||anionspirate.shop^
 ||ankleaegina.qpon^
 ||annasbeliked.cfd^
+||annexeapocarp.qpon^
 ||annoyedcolugo.cyou^
 ||anopportunitytost.info^
 ||anstosslobber.cyou^
@@ -2317535,6 +2317610,7 @@ browsershots.org#@#.advert_area
 ||atoraicebil.shop^
 ||atoxicscorserbolding.qpon^
 ||atsjvimukjfgwvs.com^
+||attainstupelos.cfd^
 ||atticalfaut.cfd^
 ||atwrbaaxe.com^
 ||auanticwritten.qpon^
@@ -2317546,6 +2317622,7 @@ browsershots.org#@#.advert_area
 ||avajwloevvvlw.top^
 ||aventrebanate.cfd^
 ||average-movie.com^
+||avexguntybtxd.online^
 ||avjbjbeywlkmm.top^
 ||avncrsxhhcdiroa.com^
 ||avourchandu.cyou^
@@ -2317583,6 +2317660,7 @@ browsershots.org#@#.advert_area
 ||baclavasegni.cfd^
 ||baconswiles.shop^
 ||bacpfxhywfbb.com^
+||baevzfhd.com^
 ||bagnesvivax.shop^
 ||baikiedestrer.cyou^
 ||bakundaindigosepi.cyou^
@@ -2317677,6 +2317755,7 @@ browsershots.org#@#.advert_area
 ||bjqafjsdtivkb.site^
 ||bjydccyqkjcxj.website^
 ||bkpqdkveqvotm.space^
+||bkqfyjvgaowoa.website^
 ||bkrjnunlxffzx.online^
 ||blaredproblem.qpon^
 ||blasterincite.qpon^
@@ -2317688,6 +2317767,7 @@ browsershots.org#@#.advert_area
 ||blrwjcbetgiqec.com^
 ||bltaswrwokwjb.space^
 ||blufflysheatkevil.cfd^
+||blumecedingbaltic.cfd^
 ||bmfoyxjuwzouz.online^
 ||bmmybwnoyxhvm.space^
 ||bniwhgmjnrhioni.com^
@@ -2317709,6 +2317789,7 @@ browsershots.org#@#.advert_area
 ||bootesreeder.cyou^
 ||bootiedremold.cyou^
 ||bopfrxjbdyquv.website^
+||boranclangs.cfd^
 ||boregloy.cfd^
 ||borismbergamo.cyou^
 ||bothnicfarofftahami.cfd^
@@ -2317723,6 +2317804,7 @@ browsershots.org#@#.advert_area
 ||bozvcohnsbhgk.website^
 ||bqchipbuldzvg.website^
 ||bqddrhvtnoikv.space^
+||brahuimiswendgranat.cfd^
 ||brasilmistime.shop^
 ||brawledbemat.cfd^
 ||breakaxrookies.shop^
@@ -2317831,6 +2317913,7 @@ browsershots.org#@#.advert_area
 ||cfjqomeaushom.site^
 ||cfrmnwscdcsfz.online^
 ||cfwrvchxqtmxl.com^
+||cgxjeqitxwmtp.online^
 ||cgyurxmdccrbd.space^
 ||chainsulae.shop^
 ||chalkedsuttenlyrate.cyou^
@@ -2317923,6 +2318006,7 @@ browsershots.org#@#.advert_area
 ||corylsecluse.qpon^
 ||coshesiolite.cyou^
 ||cosmoskellegk.cfd^
+||cosokxsztwhfz.website^
 ||cotlandfensivecamis.qpon^
 ||cottedhotchanema.qpon^
 ||cottrelhommockpiperno.cfd^
@@ -2317978,6 +2318062,7 @@ browsershots.org#@#.advert_area
 ||curvetuppluck.qpon^
 ||curvyretaped.cfd^
 ||cuttaildeponer.cfd^
+||cvbjetgbzkhpm.site^
 ||cvqqvht4z6zlqe3o82fvb.cfd^
 ||cwgptplsqlcev.site^
 ||cwjqiiehd.com^
@@ -2317989,6 +2318074,7 @@ browsershots.org#@#.advert_area
 ||cz34qg4fkx6cxlj5zom9.rest^
 ||czcejbdbpsipe.space^
 ||czcqkmijvsbvo.online^
+||czpjygfmfkjyy.online^
 ||czuhygurakcdk.website^
 ||daftarfilles.shop^
 ||daicoaky.net^
@@ -2318105,6 +2318191,7 @@ browsershots.org#@#.advert_area
 ||dqqmfckpmfvkk.space^
 ||dqzoroljvmjmk.space^
 ||drabsgaposis.cyou^
+||dreuihdvyukvl.site^
 ||driehphbgvsca.site^
 ||dropoutnorroy.cfd^
 ||drowseskinepox.shop^
@@ -2318125,6 +2318212,7 @@ browsershots.org#@#.advert_area
 ||duramenexla.cyou^
 ||durriesmaiid.qpon^
 ||durrvenular.cyou^
+||dutpzliwv.com^
 ||duxmiro.qpon^
 ||dvfcrgxzbqexm.online^
 ||dvhytcaqofphn.space^
@@ -2318167,6 +2318255,7 @@ browsershots.org#@#.advert_area
 ||egqeaijxjsyah.com^
 ||egtsliqkjainf.website^
 ||ehrxthskewjm.com^
+||ehwdvntpzjgtu.online^
 ||eibnfyvhpoack.space^
 ||eidecuculipeonize.qpon^
 ||eiwgnamxjkj.com^
@@ -2318210,6 +2318299,7 @@ browsershots.org#@#.advert_area
 ||epvgahmoavzzm.space^
 ||epyqlmeugx.com^
 ||equipsbaratte.cyou^
+||eqyhnibbirlbc.site^
 ||eranistsenesce.qpon^
 ||erdpmnduqsekimh.com^
 ||erinvanman.cfd^
@@ -2318244,6 +2318334,7 @@ browsershots.org#@#.advert_area
 ||ey3hqkkutuptct.rest^
 ||eycjmecjjdo.com^
 ||eyerootsepg.cfd^
+||eyvsrixrzszkl.online^
 ||f31lg2wp78zvoz51lelt8goxkqcj.rest^
 ||f8onu18wp1vjiu.rest^
 ||faenusbibbers.shop^
@@ -2318324,6 +2318415,7 @@ browsershots.org#@#.advert_area
 ||foqspucuejbxp.website^
 ||fordamprimped.shop^
 ||forestaphacia.cyou^
+||formingvaguish.com^
 ||formollooney.cfd^
 ||forridenayword.qpon^
 ||forsungwanion.cfd^
@@ -2318358,6 +2318450,7 @@ browsershots.org#@#.advert_area
 ||fulalurkerswaco.cyou^
 ||fulanimesses.cfd^
 ||fulyiequintar.cfd^
+||fungicdiauloschemmy.qpon^
 ||furrowywiriest.cyou^
 ||fvfrftaducqrx.space^
 ||fwkqnknqmuful.site^
@@ -2318367,6 +2318460,7 @@ browsershots.org#@#.advert_area
 ||fxhjdmbvmdiuh.site^
 ||fxjvakbsprxyl.space^
 ||fxqhwuhglgnzl.online^
+||fxvdrrcjoqana.website^
 ||fz7tn2fypbel7v1hwwfk.rest^
 ||fzfzmmijhsmpd.online^
 ||fzrdbwljmrzsh.online^
@@ -2318389,6 +2318483,7 @@ browsershots.org#@#.advert_area
 ||gcmjujmizyphz.space^
 ||gcnypkvrzskbe.site^
 ||gdeppehq.com^
+||gdfnyjnaqxhcc.space^
 ||gdkjhjtlgo.com^
 ||gdqstrfjfnqtk.website^
 ||gdttmehgfwawc.space^
@@ -2318407,6 +2318502,7 @@ browsershots.org#@#.advert_area
 ||gerusiaallwork.cyou^
 ||gervffwlszbuu.site^
 ||get-me-wow.
+||geunbtsaktcgp.online^
 ||gfakkgtjo.com^
 ||gfwlrtbgvhav.com^
 ||ggysxabi.com^
@@ -2318471,6 +2318567,7 @@ browsershots.org#@#.advert_area
 ||grelotuptrail.cyou^
 ||gridedpul.qpon^
 ||grisledchelate.shop^
+||grizelromneyaisobase.cyou^
 ||grkyletsdrovptl.com^
 ||groutedsudserhealing.qpon^
 ||grt1pkpu9kb3hnzjg.rest^
@@ -2318478,6 +2318575,7 @@ browsershots.org#@#.advert_area
 ||gruidaeauks.cfd^
 ||grumiumameiva.qpon^
 ||gsxjmccukkfrnco.com^
+||gtuicwuljorkj.space^
 ||gulpersgup.qpon^
 ||gumharunslept.cfd^
 ||gumwclrwfrvit.site^
@@ -2318493,6 +2318591,7 @@ browsershots.org#@#.advert_area
 ||gwsfsdhplxa.com^
 ||gwvqwnijgtbtq.space^
 ||gxbyunxpegy.com^
+||gxjemsdjbgwse.site^
 ||gxmfsfhhtrvom.online^
 ||gxqcdnbbribw.com^
 ||gxqfgqhllmhhx.space^
@@ -2318548,6 +2318647,7 @@ browsershots.org#@#.advert_area
 ||hgdzfetmeptuy.site^
 ||hgssnpbuoh.com^
 ||hgzbggfwgqvcd.space^
+||hhaedafcq.com^
 ||hhsdihmype.com^
 ||hhvpgspmkobtga.com^
 ||hidatsamorton.cyou^
@@ -2318567,6 +2318667,7 @@ browsershots.org#@#.advert_area
 ||hlrmnwkibe.com^
 ||hlssrtfsfrycf.site^
 ||hlvduhhlootyc.website^
+||hmadkixrebk.in^
 ||hmnsqnvh.com^
 ||hmy7rthr5emglmymi.rest^
 ||hnptxsjshuirp.online^
@@ -2318624,6 +2318725,7 @@ browsershots.org#@#.advert_area
 ||idorgangullies.cfd^
 ||ieignhmkzrnlj.online^
 ||iewhqbogrxwbocs.com^
+||iexfibdglnsxh.online^
 ||ifiklmjjwcifam.com^
 ||ifjqdbuypcfyb.space^
 ||ignitedscuffer.qpon^
@@ -2318671,6 +2318773,7 @@ browsershots.org#@#.advert_area
 ||invotfiadtkvo.online^
 ||inxwey8zq5gog9q46enb.rest^
 ||io7tigb4h24elnfknt5bf6fuqgcygn4zz117.rest^
+||iodidtrolled.cfd^
 ||iodizedfatter.shop^
 ||iofweared.cyou^
 ||ionisedwithin.cyou^
@@ -2318815,6 +2318918,7 @@ browsershots.org#@#.advert_area
 ||k54jzjtbepf4ty55pu68rjy.rest^
 ||k6cjfz4p7zluqe.rest^
 ||kaejflvkdzfje.space^
+||kalaemblaze.qpon^
 ||kalianapremio.qpon^
 ||kamiasamable.cyou^
 ||kareetatitoism.cyou^
@@ -2318822,6 +2318926,7 @@ browsershots.org#@#.advert_area
 ||kausjrahd.com^
 ||kayakerreebok.shop^
 ||kayhyjnnnteid.website^
+||kbqgggnlabptd.space^
 ||kcczyopijhtqk.space^
 ||kchvtjeojkjuj.site^
 ||kdcnybffufasy.online^
@@ -2318874,6 +2318979,7 @@ browsershots.org#@#.advert_area
 ||kprsrejrqsjvy.site^
 ||kq4uzt8nx9ewll6olc9q6yp.rest^
 ||kq9or5blq92zq1.rest^
+||kqbitpjbsmmzy.site^
 ||kqcktrxmhvgu.com^
 ||kqdkkvvtjkmma.website^
 ||kqeqjrckhdke.com^
@@ -2318926,6 +2319032,7 @@ browsershots.org#@#.advert_area
 ||lampedburbush.shop^
 ||lampfulrhason.shop^
 ||languecurvous.qpon^
+||lannerstaurinicarree.qpon^
 ||lapsersdauncy.qpon^
 ||lapsiskycaps.qpon^
 ||laqcroflisdvu.website^
@@ -2318979,6 +2319086,7 @@ browsershots.org#@#.advert_area
 ||lgp73mzjyb5k1c7.rest^
 ||lhgwdmbxrxhmt.website^
 ||li319c4uyu7o6jkwj.rest^
+||libbarddauted.cfd^
 ||lidosdragons.cfd^
 ||liftmendrubbed.cfd^
 ||ligasereboise.cyou^
@@ -2319012,7 +2319120,9 @@ browsershots.org#@#.advert_area
 ||llboqelzolayy.top^
 ||llg9wjmo4qml4h.rest^
 ||llozyboqaoylq.top^
+||llrlykvedxhxr.site^
 ||llvlzvrejrzkj.top^
+||llxoexijrmmav.site^
 ||llykjmzrjvrkm.top^
 ||llykjmzrjvrmy.top^
 ||llzpcr76bk4vq9tyf42.rest^
@@ -2319024,6 +2319134,7 @@ browsershots.org#@#.advert_area
 ||lmoozvlrzejjk.top^
 ||lmqvowebejqmm.top^
 ||lmvrjabzqewoq.top^
+||lndmlnqcgramo.website^
 ||lnoypnlihbck.com^
 ||lobariadizen.shop^
 ||lobbersfissive.shop^
@@ -2319066,6 +2319177,7 @@ browsershots.org#@#.advert_area
 ||lucrifystealy.cfd^
 ||lugirsbhpifnl.store^
 ||lulusbardo.qpon^
+||lumbersavians.cyou^
 ||lunaredarin.shop^
 ||lupecloyed.cfd^
 ||lupousdecrialflyback.cyou^
@@ -2319100,6 +2319212,7 @@ browsershots.org#@#.advert_area
 ||m98nekmz8u2pyzm.rest^
 ||m9uelhiftq1hi9j7b6jpiuhf41v7nuqe.rest^
 ||macro.adnami.io^
+||mafqjubeuyzbu.space^
 ||maftirsunmown.shop^
 ||magacannie.cfd^
 ||magyarsholloos.qpon^
@@ -2319189,6 +2319302,7 @@ browsershots.org#@#.advert_area
 ||mjq6f7h7r1pch54lpzu42liy.rest^
 ||mkhu1rijcygth273z6wlo.cfd^
 ||mkqyqjrbfjdgo.site^
+||mkrf7h4454loik.cfd^
 ||mkzzvjfjnqksp.site^
 ||mlangeennerve.qpon^
 ||mljurnlqnqdni.space^
@@ -2319273,6 +2319387,8 @@ browsershots.org#@#.advert_area
 ||mvunwnxiddjjn.space^
 ||mwcwrmtxx.com^
 ||mwefxgtrcg.com^
+||mwotyunctxlxx.site^
+||mwpenbxfathop.site^
 ||mxbmylssd.com^
 ||mxbuoytoieyyc.site^
 ||mxehpzensjvcd.website^
@@ -2319362,6 +2319478,7 @@ browsershots.org#@#.advert_area
 ||nippledhuffier.qpon^
 ||nisimitella.shop^
 ||nitreswatt.cyou^
+||nitrilenurling.cyou^
 ||njewefmwpeankdn.com^
 ||njloqalywpljg.space^
 ||njqyjkkde.com^
@@ -2319415,9 +2319532,11 @@ browsershots.org#@#.advert_area
 ||nuttfthetpnq.com^
 ||nuw1vkj4q2zz1z227br2b.cfd^
 ||nvvrkxdypcwmv.space^
+||nwaxqpoxcmfsh.space^
 ||nwjvnehkuieyo.website^
 ||nwqmcoenl.com^
 ||nwwufquiqrfoy.website^
+||nxekzdilibvet.space^
 ||nxeucoqhoahnj.website^
 ||nxknvkfsnjaeu.website^
 ||nxpprfnnslenvj.com^
@@ -2319475,6 +2319594,7 @@ browsershots.org#@#.advert_area
 ||ojigjhkwuqm.com^
 ||ojvtthnuwbydt.space^
 ||okdghubvs.com^
+||okuofhyeuuoqyk.com^
 ||okvpxdzmhshel.site^
 ||oldlandoftly.shop^
 ||oleronslued.cyou^
@@ -2319562,6 +2319682,7 @@ browsershots.org#@#.advert_area
 ||oypineyedestan.cfd^
 ||ozdijmiuwzfee.space^
 ||ozqnvcdyoxujj.site^
+||ozstrumph.qpon^
 ||p2kuq8kjo5qoufx3fqbc179ntvx.rest^
 ||p35ip1ovbguthem92fi5y.cfd^
 ||p5zrfflrhbhtp8img5995x.rest^
@@ -2319604,6 +2319725,7 @@ browsershots.org#@#.advert_area
 ||payoffbabion.shop^
 ||pbwuiedcbtdck.space^
 ||pcggarobnjd.com^
+||pdbemjjzwqcws.online^
 ||pdeedlkcbdqxbi.com^
 ||pdghwdpxgbpqf.site^
 ||pedatabalsaupflows.cfd^
@@ -2319616,6 +2319738,7 @@ browsershots.org#@#.advert_area
 ||pennerpenuchi.cfd^
 ||peoplescalvernocks.qpon^
 ||pepsinenookies.shop^
+||peropodpolycot.qpon^
 ||perpendplanter.cfd^
 ||personsetruria.cfd^
 ||petasmacabletssubport.cfd^
@@ -2319651,6 +2319774,8 @@ browsershots.org#@#.advert_area
 ||pigmanprimacy.qpon^
 ||pigmiesgear.cyou^
 ||pignutklaxon.qpon^
+||pilausamotion.com^
+||pilawscrewy.cfd^
 ||pilersborel.shop^
 ||pilleryhoodoo.cyou^
 ||pilusliwauling.cyou^
@@ -2319852,6 +2319977,7 @@ browsershots.org#@#.advert_area
 ||qrealqeqvvwer.top^
 ||qrkwvoozvyarv.top^
 ||qrmsowrtfyxfw.website^
+||qrvwplpqiowbx.online^
 ||qrwoayzreybmz.top^
 ||qrzjmjrwmvrvb.top^
 ||qsapnjywtcntc.online^
@@ -2319888,6 +2320014,7 @@ browsershots.org#@#.advert_area
 ||qwyvmjkayeyzv.top^
 ||qxkhigpurxaamqp.com^
 ||qxmvywrkypkwq.space^
+||qxspkhpb.com^
 ||qycjgo19bq7j9he1j8ur6kc976.rest^
 ||qydemowhculaq.website^
 ||qylmbeoryzzbj.top^
@@ -2320137,6 +2320264,7 @@ browsershots.org#@#.advert_area
 ||sadikeria.cfd^
 ||safartelega.cyou^
 ||sakersenlard.cyou^
+||saknmqlonwuok.site^
 ||salientalmuce.shop^
 ||salinatineola.qpon^
 ||salpoidviolan.qpon^
@@ -2320148,6 +2320276,7 @@ browsershots.org#@#.advert_area
 ||sambosspruer.cfd^
 ||samekhsscaups.shop^
 ||samvatboreens.shop^
+||sanescatula.cfd^
 ||sanhitafz.qpon^
 ||sanifieytksm.com^
 ||sanseischucks.qpon^
@@ -2320224,6 +2320353,7 @@ browsershots.org#@#.advert_area
 ||serfismrelampscudi.cfd^
 ||seriangust.cfd^
 ||sericincarte.qpon^
+||serolintuilziesophia.qpon^
 ||serpigocrull.cyou^
 ||sestonglinted.qpon^
 ||sewagespiemag.cfd^
@@ -2320231,7 +2320361,9 @@ browsershots.org#@#.advert_area
 ||seyipagkmopqv.com^
 ||sfexjufhmu.com^
 ||sfsxfmvcotxmb.website^
+||sfumhmojnljka.online^
 ||sfwlxbshmqdgi.online^
+||sfyitoouevweo.site^
 ||sgaymlmrfc.com^
 ||shafiicrates.cyou^
 ||shahdomdemark.cfd^
@@ -2320399,8 +2320531,10 @@ browsershots.org#@#.advert_area
 ||spwwbnibzsbwj.online^
 ||spyboatjuyas.cyou^
 ||sqghiibanrvxg.website^
+||sqkbgwxsytvzs.online^
 ||squealjapedhamuli.cyou^
 ||squealslectica.qpon^
+||squgziaxhqj.com^
 ||squinthalvers.cfd^
 ||squirmrobbers.shop^
 ||sqvmirkpyqbtj.space^
@@ -2320414,6 +2320548,7 @@ browsershots.org#@#.advert_area
 ||staminaturbotfourier.cfd^
 ||staplessorties.qpon^
 ||starklyooh.cyou^
+||stbdktrfpkjsl.online^
 ||steammarge.cfd^
 ||steeleexhaust.qpon^
 ||steeplebeecher.qpon^
@@ -2320490,6 +2320625,7 @@ browsershots.org#@#.advert_area
 ||switheupsmite.cfd^
 ||swizzlehellersphearse.cyou^
 ||swizzmetage.cfd^
+||swnviqgqvltkw.website^
 ||swomfare.shop^
 ||swowsignori.cfd^
 ||swqsqbkcy.com^
@@ -2320548,6 +2320684,8 @@ browsershots.org#@#.advert_area
 ||tcvccxxrjehsb.com^
 ||tczntbnjhfqva.website^
 ||tdosmagsmlpxp.com^
+||tdvgmrzzkeuac.online^
+||tdwymsecxscng.online^
 ||tdxvywascdazw.online^
 ||te5xt1v6tjh36jhk.rest^
 ||teacartsublist.qpon^
@@ -2320577,6 +2320715,7 @@ browsershots.org#@#.advert_area
 ||theorumgunj.cfd^
 ||thickscuttles.cfd^
 ||thongedreperks.cfd^
+||thorpeslav.com^
 ||thowtbap.cyou^
 ||thrashwrist.cyou^
 ||threavegremmie.cyou^
@@ -2320622,6 +2320761,7 @@ browsershots.org#@#.advert_area
 ||tmblkvxxkvilj.online^
 ||tmcy3f3retrniwe.rest^
 ||tmgcstbtvvtmb.space^
+||tmhacgjcb.com^
 ||tmkpkoigve.com^
 ||tmnbdupr.com^
 ||tnlxabgnzdzll.space^
@@ -2320731,7 +2320871,9 @@ browsershots.org#@#.advert_area
 ||tyrrswirly.cfd^
 ||tythedmeiosis.shop^
 ||tzarismpythons.shop^
+||tzfxvxetsvibg.site^
 ||tzkeyrlgwfhml.website^
+||tzpcxvxbhemet.site^
 ||tzwuxckycugtl.website^
 ||u3hlb44nu76v9i.rest^
 ||u4fz8j3j8trjqelw.cfd^
@@ -2320755,9 +2320897,11 @@ browsershots.org#@#.advert_area
 ||ukmyvnbcpbcmzgkbog.rest^
 ||ukrcndxnkkscy.com^
 ||ukvxlsugnzqyi.site^
+||ulakmnnxbithg.online^
 ||ulcgaqxlzxcko.site^
 ||uloncusasprete.qpon^
 ||ulsifpnhl.com^
+||uluhitailge.cfd^
 ||umpslamnaorgiac.cyou^
 ||umugyqcmcuzhk.space^
 ||unarkunhairs.cfd^
@@ -2320788,6 +2320932,7 @@ browsershots.org#@#.advert_area
 ||unkeptheisted.cyou^
 ||unlacedyeara.qpon^
 ||unlaceqiyas.qpon^
+||unlylpxmdcqcn.site^
 ||unmeshpaughty.cyou^
 ||unovertkiths.qpon^
 ||unpalerfb.cfd^
@@ -2320836,6 +2320981,7 @@ browsershots.org#@#.advert_area
 ||upspewseptan.qpon^
 ||upstandflaming.qpon^
 ||upwaxpelikai.qpon^
+||uqxjearmigixi.site^
 ||uraejopnlc.com^
 ||uraeusxylems.cyou^
 ||urediumgloves.cyou^
@@ -2320895,6 +2321041,7 @@ browsershots.org#@#.advert_area
 ||vbvrlyntrmwwh.online^
 ||vbvtnhnqwacgm.com^
 ||vdfcgrqg.com^
+||vduldfjqyyywg.online^
 ||vdxsgutkrsyts.space^
 ||vealbkvekmvez.top^
 ||vebjbqoil.com^
@@ -2321010,6 +2321157,7 @@ browsershots.org#@#.advert_area
 ||vyomkbkvmryrw.top^
 ||vyrwoaskamnff.website^
 ||vyvjoeeryrlj.top^
+||vzcplfhmfzmbm.space^
 ||vzhvzbjsfywjv.space^
 ||vzkhsiaxutoqk.space^
 ||vzxrbehqynjgt.site^
@@ -2321089,6 +2321237,7 @@ browsershots.org#@#.advert_area
 ||whuffdicers.cfd^
 ||whuffleastrut.shop^
 ||whyfhooqf7wyw45im371.rest^
+||whzeop3nvbwoc6l.cfd^
 ||wichtpublic.cfd^
 ||widenedcurfs.cyou^
 ||widestortrudpedaler.cyou^
@@ -2321102,6 +2321251,7 @@ browsershots.org#@#.advert_area
 ||winterybrelaw.qpon^
 ||wirrasparks.qpon^
 ||wishtdisnest.qpon^
+||wisjevyyjdjad.site^
 ||wisteshaul.cyou^
 ||wjebbollbvqrr.top^
 ||wjebbollbvqyz.top^
@@ -2321396,8 +2321546,10 @@ browsershots.org#@#.advert_area
 ||zizzbedumbs.cyou^
 ||zkurncormodqp.space^
 ||zlhizfnnykdfw.online^
+||zlzdfpstouwwp.space^
 ||zmcotfbwooimx.space^
 ||zmeilrgkwdsgv.website^
+||zmgzerfxzgkeq.online^
 ||zmkevvbrymylo.top^
 ||zmqyzjlybmoqz.top^
 ||zmrrjyyjzabww.top^
@@ -2321422,6 +2321574,7 @@ browsershots.org#@#.advert_area
 ||zqjljeywjvqlo.top^
 ||zqmblmvzkvwmb.top^
 ||zqvvzrlqybjqq.top^
+||zqycdzdckeyuf.space^
 ||zqyzgicrcwohx.space^
 ||zsghgqdtkrarp.website^
 ||zsiuorvrnkpbw.website^
@@ -2387395,7 +2387548,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ! Source: https://ublockorigin.github.io/uAssetsCDN/filters/annoyances.min.txt
 ! Title: uBlock filters – Annoyances
 ! Last modified: Fri, 23 Oct 2026 07:36:39 +0000
-! Diff-Path: ../patches/2026.10.23.1094.patch#ublock-annoyances
+! Diff-Path: ../patches/2026.10.24.33.patch#ublock-annoyances
 ! *** uAssets:filters/annoyances.txt ***
 ! *** filters/annoyances-others.txt ***
 ! =========================== START: Anti copy, right-click, devtools, text select etc. =================================
@@ -2404175,8 +2404328,8 @@ skadden.com#@#a[href="#back-to-top"]
 ! Source: https://ublockorigin.pages.dev/filters/filters.min.txt
 ! Title: uBlock filters
 ! Expires: 5 days
-! Last modified: Fri, 23 Oct 2026 13:59:00 +0000
-! Diff-Path: ../patches/2026.10.23.1094.patch#ublock-filters
+! Last modified: Fri, 23 Oct 2026 18:37:24 +0000
+! Diff-Path: ../patches/2026.10.24.33.patch#ublock-filters
 ! *** uAssets:filters/filters.txt ***
 *_ad_$media,domain=youtube.com,3p
 ! @@||youtube.com/get_video_info?*timedtext_editor$xhr,1p
@@ -2411735,21 +2411888,21 @@ linkshortx.in##+js(set, blurred, false)
 coinclix.co##+js(trusted-replace-argument, document.getElementById, 0, json:"header", condition, /ad-chk|aads-frame/)
 ! file host popunders
 swiftuploads.com##+js(rpnt, script, toUpperCase()+, toSomeCase()+)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(rmnt, script, '"+"', excludes, /self\.__next|recaptcha|document|window|const|var|let/)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(prevent-innerHTML, script, !/document|window|const|var|let/)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(acs, RegExp.prototype.exec.constructor, '"+"')
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(acs, Function.prototype.constructor, '"+"')
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(aost, document.addEventListener, anonymous@https)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(aost, Document.prototype.addEventListener.call, anonymous@https)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(set, HTMLElement.prototype.click.call, noopFunc)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(set, HTMLElement.prototype.click.apply, noopFunc)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(set, Element.prototype.closest, falseFunc)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(aeld, click, /document.createElement|window.open/)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(nowoif, .cfd)
-1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net##+js(rmnt, script, /"\+"g|"\+"'a|self\.__next.*?\,typeof document|self\.__next&&|\|\|self\.__next\,\(|\("\+"t|'\+'F|0\|\|window|\}\)\(\)\,typeof|'\+'s/g, excludes, /^self\.__next_f\.push/)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(rmnt, script, '"+"', excludes, /self\.__next|recaptcha|document|window|const|var|let/)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(prevent-innerHTML, script, !/document|window|const|var|let/)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(acs, RegExp.prototype.exec.constructor, '"+"')
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(acs, Function.prototype.constructor, '"+"')
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(aost, document.addEventListener, anonymous@https)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(aost, Document.prototype.addEventListener.call, anonymous@https)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(set, HTMLElement.prototype.click.call, noopFunc)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(set, HTMLElement.prototype.click.apply, noopFunc)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(set, Element.prototype.closest, falseFunc)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(aeld, click, /document.createElement|window.open/)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(nowoif, .cfd)
+1cloudfile.com,akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,cg-gamespc.net,datavaults.co,devuploads.com,dodi-repacks.site,file-me.top,file-upload.org,filemirage.com,fuckingfast.*,game-repack.site,gamedrive.*,getfreegames.net,go.zovo.ink,koramaup.com,mirrored.to,multiup.io,nathanmichaelphoto.com,ranoz.gg,repack-games.com,reloadedsteam.com,rootz.so,steam-repacks.net,steamgg.net,steamunderground.net,swiftuploads.com,torupload.com,up-4ever.net,uploadrar.*,usersdrive.com,vik1ngfile.site,worldofpcgames.com,zeilink.net,zovo2.top,zpaste.net,fileq.net,zovo.*##+js(rmnt, script, /"\+"g|"\+"'a|self\.__next.*?\,typeof document|self\.__next&&|\|\|self\.__next\,\(|\("\+"t|'\+'F|0\|\|window|\}\)\(\)\,typeof|'\+'s/g, excludes, /^self\.__next_f\.push/)
 buzzheavier.com,gamedrive.org##+js(rmnt, script, "'+'", excludes, /^\(self\.__next/)
-||dev^$3p,xhr,stylesheet,domain=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|devuploads.com|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net|fileq.net
-*$3p,popup,to=~com|~io|~net|~org|~to|~co|~mixdrop.ag|~vik1ngfile.site,from=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|devuploads.com|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net|fileq.net
+||dev^$3p,xhr,stylesheet,domain=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|devuploads.com|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net|fileq.net|zovo.ink|zovo.to
+*$3p,popup,to=~com|~io|~net|~org|~to|~co|~mixdrop.ag|~vik1ngfile.site,from=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|devuploads.com|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net|fileq.net|zovo.ink|zovo.to
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z][a-z][a-z]+\/\?&?[a-z]+=[a-zA-Z0-9+\/%=:_-]+[$&]/$3p,popup,domain=gg|ink|site|so|to|top
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z][a-z][a-z]+\/\?&?[a-z]+=[a-zA-Z0-9+\/%=:_-]+[$&]/$3p,popup,match-case,to=cfd|cyou|sbs|shop|space|website
 /^https:\/\/link[0-9]+\.[a-z0-9]+\.[a-z][a-z][a-z]+\/\?&?data=[a-zA-Z0-9+\/%=:_-]+[$&]/$3p,popup,match-case,to=~com|~edu|~gov|~net|~org
@@ -2411759,6 +2411912,17 @@ buzzheavier.com,gamedrive.org##+js(rmnt, script, "'+'", excludes, /^\(self\.__ne
 ||link-file-*.sbs/*%3AeyJ*/$popup
 ||link-file-*.store/*%3AeyJ*/$popup
 fuckingfast.*##+js(remove-node-text, script, '"+"')
+||cloudnery.net^
+||cloudnary.net^
+||unspalsh.net^
+||flickrr.net^
+||pixabayy.net^
+||plxabay.net^
+||flickrnet.net^
+||unsplah.net^
+||pexelsx.net^
+||cloudinaryy.net^
+||flickier.net^
 ||cfd/rfdtagarg/*.js
 ||zeilink.net/api/public/ads
 ||cdn-n.net^
@@ -2411777,7 +2411941,6 @@ fuckingfast.*##+js(remove-node-text, script, '"+"')
 ||cioudinary.net^
 ||cloudiniry.net^
 ||cloudfronte.net^
-||plxabay.net^
 /^https:\/\/[a-z-]+\.cdn-[a-z]\.net\/$/$xhr,3p
 /^https:\/\/\d+\.cfd\/[a-z]{3}tag[a-z]{3}\/v\d\/[a-zA-Z0-9]+:C\d\.js\b/$script,3p,match-case,to=cfd
 /^https:\/\/[0-9]+\.cfd\/[a-z][a-z][a-z]tag[a-z][a-z][a-z]\/v[0-9]\/[a-zA-Z0-9]+:C[0-9]\.js\b/$script,3p,match-case
@@ -2676113,7 +2676276,6 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 ||battlecure.xyz^
 ||battlecute.xyz^
 ||battled.online^
-||battledansuli.com^
 ||battledansulio.com^
 ||battledash.xyz^
 ||battledays.xyz^
@@ -3072506,6 +3072668,7 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 ||droplatvia.xyz^
 ||droplaws.xyz^
 ||droplazy.xyz^
+||droplbox.com^
 ||dropleader.xyz^
 ||dropleads.xyz^
 ||dropleague.xyz^
@@ -4050849,6 +4051012,7 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 ||tohqyhdsjk.sbs^
 ||tohryhdsjk.sbs^
 ||tohumas.com^
+||tohumlarlatifekmekcioglukurankursu.com^
 ||tohuyhdsjk.sbs^
 ||tohvyhdsjk.sbs^
 ||tohwyhdsjk.sbs^
