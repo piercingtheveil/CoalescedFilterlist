@@ -1,6 +1,6 @@
 ! ============================================================
 ! Title: GREEN LIST
-! Generated on: 2026-10-30 14:57
+! Generated on: 2026-10-30 20:36
 ! Homepage: https://github.com/piercingtheveil/CoalescedFilterlist
 ! ============================================================
 
@@ -1445639,10 +1445639,10 @@ mashable.com##+js(href-sanitizer, a[href^="https://zdcs.link/"], ?u)
 vaughn.live##+js(no-fetch-if, method:POST body:zaraz)
 ||vaughn.live/vsz/
 ! https://github.com/uBlockOrigin/uAssets/issues/33072#issuecomment-4937969164
-x.com##+js(prevent-xhr, /i/api/1.1/flow/viewer.json)
-x.com##+js(prevent-xhr, /i/api/1.1/flow/timeline.json)
+x.com##+js(prevent-xhr, /api/1.1/flow/viewer.json)
+x.com##+js(prevent-xhr, /api/1.1/flow/timeline.json)
 x.com##+js(proxy-apply-config, {"skipToString":true})
-x.com##+js(prevent-xhr, /i/api/1.1/graphql/viewer_context.json)
+x.com##+js(prevent-xhr, /api/1.1/graphql/viewer_context.json)
 ! https://github.com/uBlockOrigin/uAssets/issues/12635#issuecomment-4982050273
 telegraph.co.uk##.onward-journey
 ! https://github.com/uBlockOrigin/uAssets/issues/33772
@@ -1445723,7 +1445723,7 @@ bol.com##+js(json-edit-fetch-request, $[?.operationName=="sendExperimentMeasurem
 
 ! Source: https://ublockorigin.pages.dev/filters/privacy-removeparam.txt
 ! Title: AdGuard/uBO – URL Tracking Protection
-! Last modified: Fri, 30 Oct 2026 12:38:30 +0000
+! Last modified: Fri, 30 Oct 2026 13:45:15 +0000
 !   Filter that enhances privacy by removing tracking parameters from URLs.
 !   Originally forked from:
 !   https://github.com/AdguardTeam/AdguardFilters/tree/91d06e457b/TrackParamFilter/sections
@@ -1446125,7 +1446125,10 @@ $to=~tradedoubler.com,removeparam=tduid
 ||newsdig.tbs.co.jp^$removeparam=ex_id
 ! "display" is in links on YahooJP
 ||jprime.jp^$removeparam=from
-||ck12.org^$doc,removeparam=referrer
+||ck12.org^$removeparam=refcode
+||ck12.org^$removeparam=referrer
+||ck12.org^$removeparam=_eid
+||ck12.org^$removeparam=_mid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241319
 ||newspicks.com^$removeparam=invoker
 ! https://github.com/AdguardTeam/AdguardFilters/issues/240828
@@ -1449295,12 +1449298,12 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ! ERROR: Failed to fetch https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt: 403 Client Error: Forbidden for url: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
 
 ! Source: https://small.oisd.nl
-! Version: 202610301306
+! Version: 202610302008
 ! Title: oisd small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 60080
-! Last modified: 2026-10-30T13:06:51+0000
+! Entries: 60208
+! Last modified: 2026-10-30T20:08:15+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -1449321,10 +1449324,12 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||18.nvrrnuyz87k9xcwc2o4c3x.cyou^
 ||194ko.i57eokfjiwoqxzlmetc.cyou^
 ||1b.ej5lycf66bpn68v.cyou^
+||1bbxruye3rwmhf9769b.rest^
 ||1g.8un3nbur69v8vvnn.cyou^
 ||1irx.kor54ifwhyrug2.cyou^
 ||1k.fn3qzvrbvemon9bl4.cyou^
 ||1no.yooeiiqrbwm86x61.cyou^
+||1nvxl968le.com^
 ||1pb6rq.7937mkij8nh2yl.cyou^
 ||1pop.online^
 ||1rm.hjmpvceg2kzfmwp5o.cyou^
@@ -1449611,6 +1449616,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||adztech-images.reviveservers.com^
 ||affiliate-api.raptive.com^
 ||affiliates.streamray.com^
+||affinalmutases.cyou^
 ||agent.tamedia.com.tw^
 ||ak.oalsauwy.net^
 ||akn.analytics.autodesk.com^
@@ -1449765,6 +1449771,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||blank.eugeniy.org^
 ||blink.fra-01.braze.eu^
 ||bmm.21gz6c7fxkbehu.cyou^
+||bmyqmpsbyuruu.online^
+||bnglthvrtfsvt.website^
 ||bnrs.shemrec.cc^
 ||bo.k15eyex4iy6rulx3.cyou^
 ||bp.6298i8c3ehjxrjcq.cyou^
@@ -1449780,6 +1449788,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||bu1.duba.com^
 ||bu9.26qqrwuxr7zjz1k9.cyou^
 ||buffet.identityservices.io^
+||burlscastlet.cyou^
 ||buyer.dspx.tv^
 ||bx76bc.5b3l8ozwtro86t.cyou^
 ||by4.irgbr1ie4vi3m77tx.cyou^
@@ -1449814,6 +1449823,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||careers.hotjar.com^
 ||careers.tbllem.com^
 ||carlsonmedia.streetinteractive.com^
+||casseaku.cfd^
 ||castify-trk.playitviral.com^
 ||cbanners.virtuagirlhd.com^
 ||cdn-b.notsy.io^
@@ -1449873,6 +1449883,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||cdn.rlets.com^
 ||cdn.smachnakittchen.com^
 ||cdn.smartnews-ads.com^
+||cdn.snitcher.com^
 ||cdn.sov.stream^
 ||cdn.spnut.com^
 ||cdn.stat-track.com^
@@ -1449890,10 +1449901,13 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||cdns.brsrvr.com^
 ||census-app.scorecardresearch.com^
 ||cf.adxcel.com^
+||cfakrdncrvooc.space^
 ||cgel9.9n3b7jip47h296m41mx.cyou^
 ||cgf6tm44.mlm51ezrwbo2beq9.cyou^
+||cgjbugwzpxeta.space^
 ||cguv93.xhuytw3pl9cn6vvizk.cyou^
 ||check.tadapi.info^
+||chnzbhusumdfi.site^
 ||chuchle.all-usanomination.com^
 ||cipb5.5vgleumy1uwir4qy5wk.cyou^
 ||cjjvjjjg.nbovvhut6yituwec.cyou^
@@ -1449958,6 +1449972,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||counter.tianjimedia.com^
 ||counter.tldw.me^
 ||counting.kmindex.ru^
+||coxssmaugtfgmt.com^
 ||cpm.adlive.io^
 ||cpm.admeridianopenrtb.com^
 ||cpm.adsimilate.com^
@@ -1450007,6 +1450022,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||curated.fieldtest.cc^
 ||customers.xray-superpixel.com^
 ||cv.aedi.ai^
+||cvxokrrytbgis.space^
 ||cwgpmf.mwxl13ezkz6wctmhj7b4y.cyou^
 ||d-collector.jennifersoft.com^
 ||d.8181zx.com^
@@ -1450029,6 +1450045,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||datacollector-dra.dt.hicloud.com^
 ||datacollector-drru.dt.dbankcloud.ru^
 ||dcinfos-cache.abtasty.com^
+||deguambittybarding.cfd^
 ||delightdriving.com^
 ||deliver.oztam.com.au^
 ||deliver.vkcdnservice.com^
@@ -1450048,9 +1450065,14 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||dmp.eland-tech.com^
 ||dmp.sbermarketing.ru^
 ||dmpmetrics.rcsmetrics.it^
+||dnrqrfihitbms.website^
 ||doh.cq0.co^
+||doktfnwmncatl.site^
 ||doppler.hulu.com^
 ||doppler.streetinteractive.com^
+||dotqqjbbjqlam.space^
+||dowbsxmiqzkrm.website^
+||drawoffcutheal.cfd^
 ||dsp-east.nativeads.com^
 ||dsp-eu.nativeads.com^
 ||dsp-service.admatic.de^
@@ -1450080,12 +1450102,15 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||edgeadserver-delivery.reviveservers.com^
 ||ediva.gr^
 ||eeby8ge5n69.fvluyczy4t2mtloqblry.cyou^
+||efsgfezholhul.site^
 ||efxug6owqjcb3.2uh93glo6t75oicko3.cyou^
+||ejszcqkjrqqpn.site^
 ||ekhu5mutizy8.nhgnwknoi4r1tmburi5bk.cyou^
 ||eln2fh2clreg.9m4925162vrvp9qrolth5.cyou^
 ||em7zztbgb2413hvzq.5vguc732gqkcxkbp.cyou^
 ||emtxknnfii.mtzc88nenz4ftqctnnum64t.cyou^
 ||en.elowriderst.com^
+||enciunjktxfnf.com^
 ||engine.eroge.com^
 ||engine.gettopple.com^
 ||eniw5nlvcmg6il3t.z7z512ut6354ox3wk.cyou^
@@ -1450157,9 +1450182,11 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||farm-cn.plista.com^
 ||fbmo1lfc9z9if8pq3k9jk.nbqtxkctqz9lqxyzby.cyou^
 ||fcm5kum7vbo.2pjcu7277jkcx67orn1qqkn6kelc.cyou^
+||fcxvkszxsuvij.online^
 ||fe7wk7tihrbgj.em7gh6j5ywry8u23xq7p1bjmub.cyou^
 ||featured.perfectionholic.com^
 ||feed.clickmenia.com^
+||fetidlytrapper.cyou^
 ||feyrk8tiop1gerznom92t.gfwpu4re8uxurkkh95.cyou^
 ||ff.qichetansuo.com^
 ||fi782u.v675m7nqlm86t4gg4phx7i11uqco8v7gu5.cyou^
@@ -1450251,12 +1450278,17 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||filter.trackrelaypoint.com^
 ||filter.winkleads.com^
 ||filter3.danarimedia.com^
+||fineduntoned.cfd^
+||fiugzixscuigx.site^
 ||floorforce.streetinteractive.com^
 ||flowise.tbllad.com^
 ||flxscuwvp.com^
+||fnxotdtqrynvx.website^
 ||fp.uxi9f4pxvmvzhf.cyou^
 ||front.optimonk.com^
 ||ftm.fluencyinc.co^
+||fttgazalbicwv.online^
+||fubbedcubes.com^
 ||fvalid.appsflyersdk.com^
 ||fvp.y8gmfpz6k1h76u.cyou^
 ||fz.qyihmrk7g81lqzr4.cyou^
@@ -1450278,6 +1450310,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||gb8w2o.9m4xkmxy9rmrkh5.cyou^
 ||gcdsdk.appsflyersdk.com^
 ||gcwbg.l2wf6uxn3jgfj6yf.cyou^
+||genxaelsxponb.site^
 ||geo.bdg.com^
 ||geo.ertya.com^
 ||geo.go2s.co^
@@ -1450291,6 +1450324,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||gil8.3rl7272l84w17jvogj.cyou^
 ||gj.btwk1tpcrl8o3g8lbfhf.cyou^
 ||gj7.hyv9me7oi765pxzuhy6.cyou^
+||gkphrmzjsztww.online^
 ||gll.yc8c7fpjfci6kz53ivyb.cyou^
 ||global.appnext.com^
 ||gnp.i56ol6mutr7pgxkthbnp.cyou^
@@ -1450352,6 +1450386,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||hello.staticstuff.net^
 ||hello.vipapi.org^
 ||hermes.allo-media.net^
+||hfgaw.online^
 ||hij57uflerm19utj.8tx9eg1oi7kojw.cyou^
 ||hit.123c.vn^
 ||hit.acstat.com^
@@ -1450360,25 +1450395,31 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||hits.europuls.eu^
 ||hits.puls.lv^
 ||hiztz67hunr56p.jto284b7mr4tmgrb.cyou^
+||hkkoivjxdurub.space^
 ||hl9ol32c.lt448o9e7on9owy42u4yhyk.cyou^
 ||hlipublishing-static.reviveservers.com^
 ||hlog.hiido.com^
 ||hm6nl25p5hf5cuq.pit28wg22uieyw6n.cyou^
 ||hm9l.li2gmepmyqjpo8987kkxr334q4v.cyou^
 ||hmzv.m7hp6rnw1wtitj4incmuf48mt57.cyou^
+||hobxlluzuvifk.website^
 ||hom.mq6ropmunwzeog5k1kbqrvlxgi6l4.cyou^
+||homeridsouredcoughs.cfd^
 ||host-override.ad-shield.dev^
 ||hotupgrade.hpplay.cn^
 ||hq691k.vom13o1kie157mc3iop98wzc2q.cyou^
 ||ht858.ckrcbzh7mo5t1m14n9m5qlqt7fte.cyou^
+||hujzgkerxutbb.space^
 ||huodong.ios.shouji.360.cn^
 ||huq2vexn988e3kyqzb.btw3gfu9993b59t.cyou^
 ||hv13m.b3i93upcu47tn48kgm7ixnivowtp.cyou^
 ||hw-t.hypers.com.cn^
 ||hw.6ihuxf4e7o9zw3ibl3ggtkm81twjkiq.cyou^
 ||hwkj4ohnfekvux664ex.y5etgevy2wkx91.cyou^
+||hwmacvfokynie.space^
 ||hye.comp.360os.com^
 ||hyt.comp.360os.com^
+||hyybmikuqcptd.space^
 ||hzckfr472tn.bk4q9cfvzummpuqk1x7q9yn.cyou^
 ||i.go.sohu.com^
 ||i.imedia.cz^
@@ -1450435,6 +1450476,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||ingest.skarb.work^
 ||ingestion.webanalytics.italia.it^
 ||init.blackcrow.ai^
+||inrnwpjzutkxr.online^
 ||ins.oberpfalzmedien.de^
 ||insight.bellmetric.net^
 ||interactive.forthnet.gr^
@@ -1450444,6 +1450486,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||ios.bugly.qq.com^
 ||ipk8.i469r3ukrhjokmzrh77oqt7pwuvzfhhv8x42.cyou^
 ||irite7h7fqjoxww3y1rbkhnu.pn7k319fqyufmr2t.cyou^
+||iuarjtineisui.space^
 ||iy.cxtkctckl2qzv2.cyou^
 ||iz.8tevgb2z2t2pf9.cyou^
 ||iz.vtkjuypbnpzvgt.cyou^
@@ -1450464,14 +1450507,17 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||j8l.mhug14ni1677k4lhzpn1w6t.cyou^
 ||j9.oz75ubxn4j6bq5tpgquyh1uc.cyou^
 ||jacilla-static.reviveservers.com^
+||jb7jn7p8icg9njfw33zu81rzl2wpj6pbl.cfd^
 ||jbdch1.appmobile.cn^
 ||jc.v7xmmm6e9nb8y2y3k.cyou^
+||jdeonqnnbujgy.site^
 ||jfvh.31m2m7ptpemp831.cyou^
 ||jgk54x.6lemx1qqr6wzy4.cyou^
 ||jio.ocz3czqghg51qb2lb.cyou^
 ||jm6.r1ez7cr7k8eo533hub.cyou^
 ||jogxgzdpmzuln.online^
 ||jp-axia.m0mentum.net^
+||jpvire.com^
 ||jqu5.tj9rrm4fwyb7r3jvmo.cyou^
 ||js.kcolb.site^
 ||js.medi-8.net^
@@ -1450505,19 +1450551,25 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||k7j7kk67x5or1le286ew.7tt2bb1vz5549q.cyou^
 ||k9nmr4ii6w4gm3f.bqceuxtnnzw29yygimx.cyou^
 ||k9vh67ncf.8mp83931orgfnlfvkuumf64tl.cyou^
+||kaxknzoaxlmnu.space^
 ||kcfq6g.ezrep55kkv42r9kmojc1t.cyou^
+||kdrvs.online^
 ||kee.e1brxg23xloe7kbm9eqy7qhj.cyou^
 ||kenwgjb2r.nwtgecmgxcwkbrpt36.cyou^
+||kgfmolto.qpon^
 ||kgt628.5qg9etryc95zhuvtxpuqiq.cyou^
 ||kh.24o1jktvmep57tc2pkzpfqbz92.cyou^
 ||kh3.g1f5wq55lgc9y2oowfyp7pcot.cyou^
 ||kil8mknq.yfjygotkkg2u7kmgqnqo.cyou^
 ||kinogo-may.vipapi.org^
 ||kitchen.juicer.cc^
+||kiwanisburials.qpon^
 ||kkt.e5l7fq2pbhye1u7mbv5j32kc5b.cyou^
 ||kly.tcfz84v8qh1iertxuq7owff3ym.cyou^
+||knpbujoalosju.site^
 ||knrzytcl7npbfz.p1fw1423z44lx17.cyou^
 ||kpe18r.b9fcim9nzve9u2j1eyezycce.cyou^
+||kpubcpxbliofy.com^
 ||kpwwmgix.bo4qlh8u5zi59l21glpm6p.cyou^
 ||kq4fr.uuocjwi377y5m3ozrh65yto4q.cyou^
 ||kq9g48fr8cy3v9z.el6fvu2mo7p2mp2.cyou^
@@ -1450547,11 +1450599,15 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||l6.6184ehzrirx6ph.cyou^
 ||l6.y6zo8ygj7jebbt.cyou^
 ||lab.blackpics.net^
+||laccaseberoll.com^
+||lampfensured.cfd^
 ||lander.parity.domains^
+||laqfbvpdbaysb.space^
 ||launcher.smart-tv.cn^
 ||launcherimg.smart-tv.cn^
 ||launches.appsflyersdk.com^
 ||lb.usemaxserver.de^
+||lbwhalvahs.cyou^
 ||lc.recopick.com^
 ||lciapi.ninthdecimal.com^
 ||lcurn1bc22nmet8.lll98g9ok2oymzifu89b.cyou^
@@ -1450559,9 +1450615,11 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||leadsandmore.go2cloud.org^
 ||leet61t2.hprvwf66vvr5kbc7ztgf17kelvc.cyou^
 ||lenta.sparrow.ru^
+||lfelmuqfcdegi.site^
 ||lgecokr.api.useinsider.com^
 ||lh.bigcrunch.com^
 ||lighthouse.edoinc.com^
+||lisperscathjct.qpon^
 ||live-eu.gamesvot.com^
 ||live-eu.pornamigo.com^
 ||live-eu.pornamigos.com^
@@ -1450667,6 +1450725,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||lrl56jv4vnnn2bnl3321.k16qbmbpj5luxo54we.cyou^
 ||lu.v7gilco6oipt7y3ec5ybkpn6t55cf7zwy41zt.cyou^
 ||lu2vbbjz4tmmm8.6ygo1wvgfe6f5gg57mr3ggcq4.cyou^
+||lwgqskpjqjwqi.website^
+||lxfbmgtyjzywe.website^
 ||m.6bnbt9kx42z2lrtz792qj8c.cyou^
 ||m.adtiming.com^
 ||m.cwi71qq321fi5z2b.cyou^
@@ -1450740,6 +1450800,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||munchkin.marketo.net^
 ||mx.g6phvtykhwqukf3qr7g6.cyou^
 ||mxirw.2fuinb2lye29bzmme.cyou^
+||mxujrdczusplc.site^
 ||myjbn51.8v9ootltl34mnxv.cyou^
 ||n.qiq84w7jfg2u8i1njgu6v36e783.cyou^
 ||n2725f1oq.8u2vt9i5zijbup4qq7ccy3.cyou^
@@ -1450757,6 +1450818,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||nhy26bhv3cj6.kj9t154bkvrhgn.cyou^
 ||ni3ebfpqwpq.hcwwgqp7lkmqogu.cyou^
 ||njytpx44.nwveubi1f3ly4yn63o.cyou^
+||nmlgsqrkxsafb.online^
 ||nn6.wyptkhovqvkjw246ff9w8oyx.cyou^
 ||nnhbioy3.fco1u2pjwizef1ygcz3.cyou^
 ||nol7po.7tlzfijpvkq1vbcu4jqq44.cyou^
@@ -1450765,14 +1450827,17 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||nopetube.xn--mgbkt9eckr.net^
 ||np4fg.4wm2uu5mc3ybgjl7ku2jpe5.cyou^
 ||nqqv.1y4tp8bek3vq5ctlwll8lp71.cyou^
+||nrlblleazirki.website^
 ||ns336739.ip-37-187-249.eu^
 ||nst.trex.media^
 ||nt2q.fe826y85mh1p2le43l1i2vjww.cyou^
 ||ntus.bidease.com^
 ||ntuu56.epem1wcu172pkob67xuifg9.cyou^
+||nuwykdfpvtfhy.space^
 ||nwyq5kmwfl.1hwbnu4kzc9rrphmfci.cyou^
 ||ny9u56zrr11g64cf.v259u9gbo2cejv.cyou^
 ||nyfa-images.reviveservers.com^
+||nyohikihjztcq.space^
 ||nzgtquhbfvhnp.site^
 ||o.eoo367cipw163xvy2t9w9ht7gv437c9v.cyou^
 ||o.obprk52555pgx2tefpeq1oyfj5rm4w4fjxf.cyou^
@@ -1450795,6 +1450860,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||ohywpbwx.phot75oo1n61nv3fpln63l3g6k.cyou^
 ||oi7x44yo.699bhnbkhefwieozi67lzx3ltf.cyou^
 ||ojtlm.y4yw9g4u4kxh7xnr194jvjhenqq6v.cyou^
+||okaehisqjcscs.site^
 ||old.rtxplatform.com^
 ||olytics.omeda.com^
 ||om.dowjoneson.com^
@@ -1450814,7 +1450880,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||optimize.urekamedia.com^
 ||oru3ybl7.xcevcuvuic4k5617vw1cczqh5w73.cyou^
 ||os.scmpacdn.com^
+||osmosedbluecap.qpon^
 ||out.usbla.net^
+||ovhvbpujfejul.online^
 ||owpty9m68kunl.il8mxrlp2g39ry5fqjjrb3wc.cyou^
 ||oxuo84nyp3v.8oglbl4zlr76m7ncgjig693kleh.cyou^
 ||ozu9c8rlygo8zj8xy4hr.kecit2rc5pnzwcumye.cyou^
@@ -1450882,6 +1450950,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||player.collectiveaudience.co^
 ||player.stats.live-video.net^
 ||ploy.batmobi.net^
+||pltthhuzrnszb.website^
 ||pn.ybp.yahoo.com^
 ||poi.kinzazaza.org^
 ||ponos.zeronaught.com^
@@ -1450941,25 +1451010,35 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||q6ecz.jr5ten5v1m9n7vkyb8qqkbp1m.cyou^
 ||q81il7qzbjterqz.vwx8fjh26vfntmu.cyou^
 ||q8mxbm.loklz8wgfbtcovm75uy3bew3.cyou^
+||qaflzymiq.in^
+||qazftnherhwkf.online^
 ||qe.k5pl3cz4qub6ymv663vl3.cyou^
 ||qfvjyllbpexrk.space^
+||qghvbqurzqjgm.space^
 ||qgo3pp.5vpgg1pvvgiev3qgc5.cyou^
 ||qhmeo.r5xctuccxf25fk18ffu.cyou^
+||qhxffirdubdus.site^
 ||qi.498iy4qguu1j8lruq5bto3.cyou^
 ||qjh.h6gy3iw2mfz2cuv9mcxm9.cyou^
 ||qk4tcrctw8.j1ug7kxjx8jozzo.cyou^
+||qkucarfuavykh.online^
 ||ql.cvciz8ityuz4g99ybionlol.cyou^
 ||qlp.czfhou822nye2zwuotpoxm.cyou^
+||qokrmqcjkgyhl.online^
+||qozcqojvdomgf.site^
 ||qqdata.ab.qq.com^
 ||qrcx.euwmv6ero56jxry2pivkr5.cyou^
 ||qrug7wxyjzu.iuki5wuouqvpvcp.cyou^
+||qty00vcqh8.com^
 ||questico-ads.reviveservers.com^
 ||qv.kbxukt3mmjflj7vj3t74gw73t.cyou^
 ||qvp41c12i4op2.mg2z5bcv3q2pik.cyou^
 ||qwgn27.42x3177nnbzyrne5nprib.cyou^
 ||qwo2megh2y.bj9oo31oomni2o28z.cyou^
 ||qxx8j3z2vnu1e3.e4obp715nx9rlp.cyou^
+||qxxqxhszsbqtr.site^
 ||qz4tvlbx1qbtlv.rr1cbbr7yychgx.cyou^
+||qzmmtxllincpz.space^
 ||qzs.gdtimg.com^
 ||r.browser.miui.com^
 ||r.buk5bovxwx3mjucviwifevv274k9jr.cyou^
@@ -1450969,8 +1451048,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||r6rew8t.7mgy2523zo2hotfjrzkgwzctez78yo1.cyou^
 ||r8l.c6z68f48gklgru273uqh6owi42qpv9ijxkb.cyou^
 ||r9efr.pf95ewyr24qqtgx2zn1r67n8u7hju5l44.cyou^
+||radar.snitcher.com^
 ||rampjs-cdn.system1.com^
 ||rbv.hbftp3vtwt2exge9cvi4yfweoqxg.cyou^
+||rcyanwrt.in^
 ||reach-id.orbit.tm-awx.com^
 ||realtime-profiling.datarize.ai^
 ||receive.wmcdp.io^
@@ -1451182,6 +1451263,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||rtvutrecht-static.reviveservers.com^
 ||rum-openway.guance.com^
 ||rvh3n6zbr8ub45.luwvyzb8f8rfhbn9vor2b.cyou^
+||rvhlzroppijdz.space^
+||rvlurlxhnwyzu.space^
 ||rvzfh.5x8j9lzn1v1min9nhzclmiuztqu11m.cyou^
 ||rz56vu65.q1bpm4qck5wqbx8nfgekz8kv81fk.cyou^
 ||rzbjehkgfkpuv8zhr1j.fmkqwuw1v2ynmbgkt.cyou^
@@ -1451210,6 +1451293,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||sa.entireweb.com^
 ||saas.hpplay.cn^
 ||sab.fast.ge^
+||safflorfaring.com^
 ||san.myadssupport.com^
 ||saucon-sponsors.streetinteractive.com^
 ||screen.buzzvil.com^
@@ -1451249,6 +1451333,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||smpl.hit.ppdb.pl^
 ||snippet.affilimate.io^
 ||socdem-enrich.getshop.tv^
+||sorbolmorvinsocials.cfd^
 ||souuubzvprxyj.online^
 ||sp.linkssp.ru^
 ||spa.arabtoons.net^
@@ -1451364,6 +1451449,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||stats.anime-go.cc^
 ||stats.arabtoons.net^
 ||stats.calldorado.com^
+||stats.cleanip.io^
 ||stats.miarroba.info^
 ||stats.phoenix-widget.com^
 ||stats.popupmaker.com^
@@ -1451381,12 +1451467,18 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||stats2.videonow.ru^
 ||stg-data-collector.playbuzz.com^
 ||stg-data.ads.heytapmobi.com^
+||stimiedgutnish.com^
 ||storeconfig.mistat.intl.xiaomi.com^
 ||stormgate.production.raptive.com^
 ||sts.marketingsuite.jp^
+||suciunsizedzoner.cfd^
 ||svc.kartinka.com.ua^
 ||svibeacon.onezapp.com^
 ||sw.singsw.com^
+||sweetzaramoefface.cyou^
+||sxjepvczefgtc.website^
+||sxprbcyqrwg.com^
+||syjmduyhhzkyp.site^
 ||sync.1dmp.io^
 ||sync.ads.oveeo.com^
 ||sync.adsp.io^
@@ -1451464,6 +1451556,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||textad.sexsearch.com^
 ||tfpodf.ars.appsflyersdk.com^
 ||tfzzy4objtvy6.hlzn71bh261zzgrtx8vklvgp3q.cyou^
+||tgvrxkqtehauz.space^
 ||thbfylh8zkfuf.nu7c57gn2hhlkooucvx5wr8l15z.cyou^
 ||thcyurtm1icvw2ij.tbw31tlklby2kin11r2p8x4b.cyou^
 ||ti.q8vfjfhk8htwl58lyugqebxhy1nbrnpctzmc8f.cyou^
@@ -1451473,6 +1451566,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||toblog.tobsnssdk.com^
 ||tontent.powv1deo.cc^
 ||tools.vpscash.nl^
+||tpmienbihyqtf.space^
 ||tpx.tesseradigital.com^
 ||tq-eu.bocdos-4.online^
 ||tq.adventurefeeds.com^
@@ -1451602,10 +1451696,12 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||uli4i9.fcfe268pqzlqgxl99.cyou^
 ||um2lnz.evjk5ftl2l2cz54cl.cyou^
 ||umini.shujupie.com^
+||unbitvenefic.qpon^
 ||unif-id.ssp.inmobi.com^
 ||units.knotch.it^
 ||universal.wgplayer.com^
 ||unpin.hothomefuck.com^
+||unsoldirbis.cfd^
 ||unxgjkkqevaqb.online^
 ||uoukc.7kbwiy7yggpiw56vpiz.cyou^
 ||up.admoxi.com^
@@ -1451614,11 +1451710,13 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||upload.luckyorange.net^
 ||upstats.yadro.ru^
 ||uqqyzmje.oy26yg62epge4hxl.cyou^
+||urtfnheldzxgd.site^
 ||us-behavior.apitd.net^
 ||usaoptimizedby.increasingly.co^
 ||use-application-dns.net^
 ||userpanel.eroadvertising.com^
 ||uuk6x.33euh37v49itgkymlumm.cyou^
+||uumpciisuya.com^
 ||uwz7l3c.62epx4fjt3xgtgif3b.cyou^
 ||uzl8.bkimfvv8gr9ix9uk5oy45t.cyou^
 ||v.58obu2vj5nrko4ki6xtwwklc4qchtcqx9h.cyou^
@@ -1451632,6 +1451730,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||valnet.sentinelpro.com^
 ||vault.nqintelligence.com^
 ||vcbyrg.w5hn2yxmyzq6woxw6b5mwww.cyou^
+||vckgrmcikcze.com^
 ||vd6.l.qq.com^
 ||vdbdhcaesexum.space^
 ||veenmedia-ads.reviveservers.com^
@@ -1451648,21 +1451747,27 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||vil2.er2o6ctg6eniu3cb54g6ghlpo3.cyou^
 ||vipauth.hpplay.cn^
 ||vipgslb.hpplay.cn^
+||vjmotvwsqreti.site^
 ||vkpcjklenh.6nt35vjcbj4qbyug9y1qr.cyou^
 ||vl45xz19vt1toghq.kvzz68l2rppz93n.cyou^
 ||vlfw.g39gwvvv8em9jbb4735ftvywc8k.cyou^
+||vlhdwxtvqvqvi.site^
 ||vmap.v.ad-generation.jp^
 ||vnmqwhwzy.312wx9hiej7vhybn7kgpcf.cyou^
+||vnschygglnnih.website^
 ||vo2.qrlsx.com^
 ||vof8qeyv.3gnfqbitil3zl8igjlzgq2gj.cyou^
+||vorzeevqtmhwm.site^
 ||vox2z5.tqe287joo45fmjm3z1emm6mpwm.cyou^
 ||vp4159o5p5.tp2vz96fzxp47juvkl5c8v.cyou^
 ||vpjugjvbrswyx.website^
 ||vpkxxhloef.w3iyciznevej29fuwncw7o.cyou^
 ||vqhg8wq3qvjf4.63jxvbki8n4ccr3uc6z.cyou^
+||vrfwmkybrpjng.website^
 ||vst.dfn-network.pro^
 ||vt.w5kz4y9gn3j52t2w4myuh55yhqf5cgv.cyou^
 ||vtzhocf.48xei59gwjfvf1766orq5ix9gz.cyou^
+||vujk8juwjkwtzkjr3u7r.cfd^
 ||vwc9h9.28x81qpf8f3t7jjwbuuz7i169im.cyou^
 ||vweuk9vf.hf7mlgjm6twbb5hjyn6b9xi2u.cyou^
 ||vye6nglp4h.iz8no92l5vfg6w5x19ccpplu.cyou^
@@ -1451676,8 +1451781,10 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||w.wcllterimm88e9.cyou^
 ||w1.gskwai.com^
 ||w2.umv4un51hvzze92.cyou^
+||w6v754e1uw.com^
 ||wa.appsflyersdk.com^
 ||wa.wawlabs.com^
+||wacwzcfmljumw.space^
 ||waves.retentionscience.com^
 ||wb.b7ftghx2py1qzfu45iqe5o2q583mqk5lp6n.cyou^
 ||wb2.rgvh8uvn9t11jupkn8y7oiu1pzwun9mtwt.cyou^
@@ -1451713,6 +1451820,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||win-rtb2-uswest.programmatics.net^
 ||win.gdt.qq.com^
 ||win.staticstuff.net^
+||witletmorsels.com^
 ||wje3ct.m3u1ftc38x74ytrz9cop53fh94n8u9h4.cyou^
 ||wlrmzcfmrg2it9koclnc.63hgwmuu5ozlxornytw.cyou^
 ||wmce68.4ikc8g4miq6t723891egjw4p4kfttr8ik.cyou^
@@ -1451727,6 +1451835,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||x.ft6i5tfnllq3xuvgm9.cyou^
 ||x1.52aoteman.com^
 ||x22nf.u4zjn4ppz5oh95efcwjq.cyou^
+||x3vmn1m3ne6epnk9v9t9.rest^
 ||x5hw82.3kfymtch6e1x7c8pxtr.cyou^
 ||x5x.uxf6gkki26h8hx8p49885e.cyou^
 ||x7h.i3j1zw3x458btnfe86nlj69.cyou^
@@ -1451736,11 +1451845,13 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||x9mig9p2t.1xjqnc1qtn2ct1ghh.cyou^
 ||x9t78gmg37.wnkox16mercn2zxu.cyou^
 ||xc.gdt.qq.com^
+||xfvwdyrioqpym.website^
 ||xg4zw7.zuhrn4xjhyq5wm.cyou^
 ||xghpo.2ppghrgnk4qb6lv.cyou^
 ||xgn7p6.6wemoccmovpt6v.cyou^
 ||xhvideo.saawsedge.com^
 ||xiaomi-dtv.m.cn.miaozhen.com^
+||xjiqyxzjijrcf.website^
 ||xjjmvuapipujn.site^
 ||xjkgo.7nlqjvp6cxh7uc4.cyou^
 ||xjx65c.pmwzuf567glojz.cyou^
@@ -1451905,6 +1452016,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||xmlstatic.pubsfusion.com^
 ||xmlv4.reklama.network^
 ||xmrqo.2y2z3bpqp1trkh9k.cyou^
+||xmtfbnozmrjnf.online^
+||xngfbikggrivf.site^
 ||xp.26vz1uwr3qgfotgk9vuu.cyou^
 ||xq.b2w8berhhkbp3bk51zh4.cyou^
 ||xr5llg7.wu3hp3ifn2ro6yk.cyou^
@@ -1451920,6 +1452033,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||xy9px7z.uqtj2rwff92lw51if.cyou^
 ||xyw.fo72jlzh6m44jyjhmzyor.cyou^
 ||xzk56n.4u9bk5t241elqih2k7.cyou^
+||xzumxlpjeasmc.website^
 ||y.ex7ql1xjyfhmp6wk7klkv1tot6.cyou^
 ||y.one.impact-ad.jp^
 ||y2vfr9mzx7wxqlxvfu.3jgyicowryr7kcm.cyou^
@@ -1451930,16 +1452044,21 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||y8y6itup4huv.cctp68zu4b3oxrofl74z9g.cyou^
 ||yads.yjtag.yahoo.co.jp^
 ||ybc.poyobfz1i6kpgxcv6t92ux32.cyou^
+||ybrxsejnmxbpm.space^
 ||ychk4uf7rp.96frpqxyo29998hrz.cyou^
 ||ye.5xvvhxvjr5wrerq9mp969bcqw.cyou^
+||yehjoaynyqyyd.website^
 ||yelm.576h1ge9u5367t8hku37cj9.cyou^
+||yfsfocucujnfz.website^
 ||yg9jyvl.3y8phttozu2o6yink4y5f.cyou^
+||ygernejoky.com^
 ||yiltp12m.ft8kmgi9u1qlym718rih.cyou^
 ||yju5.v1kovnyyfzw6jyo1i4hiejwz.cyou^
 ||ykokfoyc1v.v6fxgcjj6wk58ftiytm.cyou^
 ||ykukx.1z962eokwutk7rpi2n6legcm.cyou^
 ||yl3kbhm44i.tu46lzh724l2ofewip1.cyou^
 ||ylfqm4t2b9j.1qmhlwziglrh1x4hbr.cyou^
+||ylogpjmynspfl.space^
 ||ymihc9.ponqykyn2f8zn1t78jhte8f.cyou^
 ||yn3.r6jo4br87n1v5bl1xn1htj3kf1.cyou^
 ||ynzolejrwpez.6bby3wbhpm4rw2v59.cyou^
@@ -1451951,6 +1452070,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||yv35hqzrb8.fnljh66p79jc8gi6hric6.cyou^
 ||yw.1zhqoppiqezjvk1r72yovmo2zfq19.cyou^
 ||ywg4empmfe4fpth.ppvifvpk3w1nkoin.cyou^
+||yxphvytnwpkwk.site^
 ||yybp2l621t5.eiyii6vicuv136k5luvtb.cyou^
 ||yyljflz2w2w.6kpbevjpm9ogxz6gg9bjb.cyou^
 ||yz9gv7oczur.b4wfgbr26itlmf12i2nyf.cyou^
@@ -1451986,6 +1452106,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 ||zonureataunto.qpon^
 ||zq9lh2mouyohjt54f588ci8.2ik13mvpmnnjtm6.cyou^
 ||zre3u5.r3cm882yhur7pchyluz2vrmhxzgil4mv.cyou^
+||zredfoquvgxqr.site^
 ||zt6g77j.gn4bzeqlfiuc69mmznkvp13ngen6m3b4.cyou^
 ||ztqaenkkjfjku.website^
 ||zunptttqzjyr.f7t75ekbtq6mcm4f84h8t6u4fkm.cyou^
@@ -1451996,8 +1452117,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 [Adblock Plus 2.0]
 ! Title: EasyList
 ! Expires: 6 days (update frequency)
-! Last modified: Fri, 30 Oct 2026 06:28:06 +0000
-! Diff-Path: ../patches/2026.10.30.762.patch#easylist
+! Last modified: Fri, 30 Oct 2026 13:36:03 +0000
+! Diff-Path: ../patches/2026.10.30.1112.patch#easylist
 ! Diff-Expires: 317 minutes
 ! *** easylist:template_header.txt ***
 ! Please report any unblocked adverts or problems
@@ -1467412,23 +1467533,31 @@ browsershots.org#@#.advert_area
 ||6l5oguvm3x7pixp8ik7t7.rest^
 ||7imiy33o9vkqvrggxo2xr8y3.rest^
 ||7joijp175ockg4zq2qwvy5y5zmkpkpieg.rest^
+||7mv57j214eeb4ky5.cfd^
 ||81ql6e7ulf6wo3lkfft9po8.rest^
 ||8nqye9t119qtlmv8pc6ry8.rest^
 ||8q4o3h575jbn9h4z.rest^
 ||8tglybne443zhyuvc3.rest^
 ||8u9j9clpjox1y327p2omhp.rest^
 ||9f4hzrcfzhwnwjhw68qrqy4hq1o.rest^
+||9hkv3j6ql4n2ego4f1npgj1lng2oh3php.cfd^
 ||9mjln8krqi3zft1577m85xmzekihg.rest^
 ||aaa.vidox.net^
 ||access.vidox.net^
 ||acdn01.vidox.net^
 ||acme.vidox.net^
 ||adocean.pl^
+||alidasiping.qpon^
 ||alitems.com^
+||apxkemelin.cyou^
+||arpencmdr.com^
+||auetokidcote.cfd^
 ||avexguntybtxd.online^
 ||azazyjjovmyow.top^
 ||azkwwrejomwjb.top^
 ||b1hrrbqeqx325fhom54mvhepz.rest^
+||balmslaccabiune.cyou^
+||bdlswelled.qpon^
 ||belledemodins.shop^
 ||bf7mulqyojnit1zif.rest^
 ||bfcvdghzuqrts.online^
@@ -1467451,6 +1467580,7 @@ browsershots.org#@#.advert_area
 ||daleelerah.info
 ||demand.supply^$script
 ||dl-rms.com^
+||downliemamo.com^
 ||e6ufjn5obiieftle9oywq5cq5nbo3.rest^
 ||e8lv4rpvv3virw.rest^
 ||elegiseaftaba.com^
@@ -1467466,18 +1467596,23 @@ browsershots.org#@#.advert_area
 ||gathersguidon.qpon^
 ||gdfnyjnaqxhcc.space^
 ||get-me-wow.
+||gibbusdauber.qpon^
 ||gob3uq6xni9uktr6kut72u182.rest^
 ||gtuicwuljorkj.space^
+||gvyv63n4j7ez9ivmvg.rest^
 ||gxjemsdjbgwse.site^
 ||gym5qzeuvpujqt.rest^
+||hazelssunglowoxim.qpon^
 ||i4i8vf6v2pu9m4b329epo4ezeplril1p87.rest^
 ||i9vk5zbqej1juv4.rest^
+||innfurane.qpon^
 ||invol.co^
 ||iopiopiop.net^
 ||j6p16brvni61il8.rest^
 ||jbbyyryolmlvq.top^
 ||jbvoejzmaqmjw.top^
 ||jdoqocy.com^
+||joviallength.com^
 ||jqcyyl951zf93u58btj.rest^
 ||justservingfiles.net^
 ||kbqgggnlabptd.space^
@@ -1467500,6 +1467635,7 @@ browsershots.org#@#.advert_area
 ||masklink.org^
 ||mf17j3m5rqzb5xy6ix.rest^
 ||mgljsmzvqbosp.website^
+||miskeepanaqua.cyou^
 ||mntzrlt.net^
 ||monfzt9ntt3x337q7ii6ogyw4eyy5qum.rest^
 ||mricm8uun4y359.rest^
@@ -1467515,7 +1467651,10 @@ browsershots.org#@#.advert_area
 ||ojrq.net^
 ||ozglvkzmavawg.online^
 ||pastedict.com^
+||phphteremic.cyou^
+||pintasbunters.qpon^
 ||pondov.cfd^
+||poxedtigress.com^
 ||prod.untd.com^
 ||pyyywcvtizmf9kq9vhoz.rest^
 ||pzolt5bhhkjr6i8lmvbb8v1b8tvlk83.rest^
@@ -1467532,15 +1467671,20 @@ browsershots.org#@#.advert_area
 ||rocnwzecxn8xhfp.rest^
 ||rotf.lol^
 ||rpts.org^
+||rundidangedhouss.qpon^
 ||sabbatsslighty.cfd^
+||sievingcarobsinflue.cyou^
+||softiehano.com^
 ||stvkr.com^
 ||syconusinsider.qpon^
 ||t46z9wm1ogjhv7hhmhp.rest^
 ||tdmoqkpqzziit.site^
 ||tdwymsecxscng.online^
 ||te5xt1v6tjh36jhk.rest^
+||tewtergosport.cyou^
 ||tkytthdefsrmf.online^
 ||tkzx53eoqvzzoe5l.rest^
+||tonousjigglyresmelt.cfd^
 ||tourismwea.shop^
 ||tpmr.com^
 ||trakaff.net^
@@ -1467558,6 +1467702,7 @@ browsershots.org#@#.advert_area
 ||vjtpz13eo22it6lk4ox8wnmem.rest^
 ||vzcplfhmfzmbm.space^
 ||w5k1ni9cuphb1xb87rytjpyl.rest^
+||waitingungild.qpon^
 ||warmupposaune.com^
 ||whhwcqkcmvppe.site^
 ||wolf-327b.com^
@@ -1467572,6 +1467717,7 @@ browsershots.org#@#.advert_area
 ||yiisfgcnpzwno.website^
 ||ynbsakxipni.net^
 ||z5qi2851vug83zgbk3gi5obo192.rest^
+||zkzmpnlljeqiilmqr.rest^
 ||zlzdfpstouwwp.space^
 ! Anti-drainer eth phishing
 ! $document blocks
@@ -1486486,6 +1486632,7 @@ chaletnursery.com###repWebClientContainer
 news18.com###rpdred
 baidu.com###s_tab_inner > a[href*="chat.baidu.com"]
 time.com###scale-agent-overlay-container
+app.slack.com###slackbot
 ibm.com###ucx-symphony-webchat-host
 autonocion.com###us-box-btn
 trip.com##.A9zea:has([aria-label*="Hi! TripGenie"])
@@ -1487058,8 +1487205,8 @@ context.reverso.net###register-popup-bottom
 ! Source: https://ublockorigin.pages.dev/filters/filters.min.txt
 ! Title: uBlock filters
 ! Expires: 5 days
-! Last modified: Fri, 30 Oct 2026 11:49:19 +0000
-! Diff-Path: ../patches/2026.10.30.762.patch#ublock-filters
+! Last modified: Fri, 30 Oct 2026 15:25:17 +0000
+! Diff-Path: ../patches/2026.10.30.1112.patch#ublock-filters
 ! *** uAssets:filters/filters.txt ***
 *_ad_$media,domain=youtube.com,3p
 ! @@||youtube.com/get_video_info?*timedtext_editor$xhr,1p
@@ -1497228,8 +1497375,8 @@ vidara.so,vidara.to,vidavra.com##+js(set, HTMLScriptElement.prototype.onerror, u
 vidara.so,vidara.to,vidavra.com##div.max-w-3xl.mx-auto > div.relative.mb-5.rounded-xl.p-7.text-center
 myvidster.com##div.details_ads:nth-of-type(2)
 myvidster.com##td[height="90"]
-avtub.net>>,funcrot.net>>,vidara.*>>##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP|popup|\.onerror|WebAssembly/i)
-dstyladsg.com,gaqghe.com,gasobni.com,gjsabgs.com,gosbagotui.com##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP|popup|\.onerror|WebAssembly/i)
+avtub.net>>,funcrot.net>>,javnoni.*>>,javsek.net>>,vidara.*>>##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP|popup|\.onerror|WebAssembly/i)
+dstyladsg.com,gaqghe.com,gasobni.com,gjsabgs.com,gosbagotui.com,sugbaioug.com##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP|popup|\.onerror|WebAssembly/i)
 /assets/js/wynq.js|$script,3p
 /^https:\/\/[a-z]{8}\.com\/assets\/js\/[a-z]{4,5}\.js$/$script,3p,match-case,top=avtub.net|funcrot.net|vidara.*|vidara.so|vidara.to
 /^https:\/\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]\.com\/assets\/js\/[a-z][a-z][a-z][a-z][a-z]?\.js$/$script,3p,match-case,top=avtub.net|funcrot.net|vidara.*|vidara.so|vidara.to
@@ -1512256,7 +1512403,7 @@ sabnzbd.org##.banner-tall
 ! Source: https://ublockorigin.github.io/uAssetsCDN/filters/annoyances.min.txt
 ! Title: uBlock filters – Annoyances
 ! Last modified: Thu, 29 Oct 2026 16:47:02 +0000
-! Diff-Path: ../patches/2026.10.30.762.patch#ublock-annoyances
+! Diff-Path: ../patches/2026.10.30.1112.patch#ublock-annoyances
 ! *** uAssets:filters/annoyances.txt ***
 ! *** filters/annoyances-others.txt ***
 ! =========================== START: Anti copy, right-click, devtools, text select etc. =================================
@@ -1516388,9 +1516535,9 @@ firestream.site##+js(aeld, keydown, ||_0x)
 ||thehindu.com/assets/deferred.min.js
 
 ! Source: https://secure.fanboy.co.nz/fanboy-cookiemonster_ubo.txt
-! Checksum: J2o7ijct9E91jgxkSRUqwQ
+! Checksum: VuWM3+zNpmgFMK0lmU/J4w
 ! Title: Easylist Cookie List
-! Last modified: 2026-10-29 19:00 UTC
+! Last modified: 2026-10-30 17:25 UTC
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
 ! Email: easylist@protonmail.com
@@ -1534291,6 +1534438,7 @@ codesignal.com##.analytics-banner
 videotextremover.net##.analytics-consent-banner
 ems.press##.analytics-consent-popup
 eggflow.com##.analytics-info
+malibujacksquadcities.com##.analytics-notice
 tipranks.com##.anchorbottomLeft
 headforpoints.com,sudlisboa.com##.ancr-pos-bottom
 playngo.com##.anim-banner-enter-done
@@ -1540275,6 +1540423,9 @@ la-becanerie.com##+js(set-cookie, cookieconsent2_dismissed, yes)
 ! .frontendPrivacy__modalWrapper
 giovaniemedia.ch,jeunesetmedias.ch,jugendundmedien.ch##.frontendPrivacy__modalWrapper
 giovaniemedia.ch,jeunesetmedias.ch,jugendundmedien.ch##body,html:style(overflow: auto !important; position: initial !important;)
+! cnn.com (Canada) fix scroll/overlay
+! https://edition.cnn.com/2026/10/20/politics/vivek-ramaswamy-ohio-governor-midterms
+cnn.com##+js(rc, onetrust-banner-open, , stay)
 ! #moove_gdpr_cookie_info_bar
 globalcitizensolutions.com###moove_gdpr_cookie_info_bar
 globalcitizensolutions.com##+js(remove-class, gcs-cc-lock, html, stay)
@@ -1543475,6 +1543626,7 @@ mgazeta.com##._cookieBanner_1gh8s_2
 vsemayki.ru##._gTi8L8k
 2gis.ru##._n1367pl
 2gis.ru,2gis.uz##._nlniiu
+astrum-play.ru##._root_1fhto_1
 gastronom.ru##._root_24byp_2
 bankprav.ru##.a-warning
 oreluniver.ru##.accept
@@ -1544710,8 +1544862,8 @@ kalenderwoche.de#@##gdpr-consent
 cityexpress.rs#@##gdpr-cookie-consent
 ing.jobs#@##gdprconsent
 kwizard.hr,rodicycling.com#@##moove_gdpr_cookie_info_bar
-1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,3sat.de,aerztezeitung.de,airnewzealand.co.nz,antena3.ro,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,cnn.com,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,downdetector.com,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nowtv.com.tr,nutmeg.com,observatornews.ro,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.*,sony.pl,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,ticketmaster.*,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,watson.ch,webuyanycar.com,wetter.at,wowbiz.ro,ysk.no,zdf.de,zoom.us#@##onetrust-banner-sdk
-1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,20min.ch,3sat.de,aerztezeitung.de,airnewzealand.co.nz,antena3.ro,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,cnn.com,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,downdetector.com,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,globalblue.com,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nowtv.com.tr,nutmeg.com,observatornews.ro,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.*,sony.pl,southpark.de,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,ticketmaster.*,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,watson.ch,webuyanycar.com,wetter.at,wowbiz.ro,ysk.no,zdf.de,zoom.us#@##onetrust-consent-sdk
+1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,3sat.de,aerztezeitung.de,airnewzealand.co.nz,antena3.ro,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,downdetector.com,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nowtv.com.tr,nutmeg.com,observatornews.ro,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.*,sony.pl,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,ticketmaster.*,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,watson.ch,webuyanycar.com,wetter.at,wowbiz.ro,ysk.no,zdf.de,zoom.us#@##onetrust-banner-sdk
+1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,20min.ch,3sat.de,aerztezeitung.de,airnewzealand.co.nz,antena3.ro,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,downdetector.com,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,globalblue.com,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nowtv.com.tr,nutmeg.com,observatornews.ro,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.*,sony.pl,southpark.de,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,ticketmaster.*,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,watson.ch,webuyanycar.com,wetter.at,wowbiz.ro,ysk.no,zdf.de,zoom.us#@##onetrust-consent-sdk
 api.newsguardtech.com#@##optanon
 ign.com#@##policyNotice
 ibkrcampus.com#@##privacy-bar
@@ -1569458,7 +1569610,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 
 ! Source: https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-ai.txt
 ! Title: EasyList – Anti AI Suggestions
-! Last modified: Sat, 24 Oct 2026 11:38:29 +0000
+! Last modified: Tue, 27 Oct 2026 09:21:12 +0000
 ! *** easylist:fanboy-addon/fanboy_ai_suggestions.txt ***
 
 ! Source: https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-chat.txt
@@ -3515347,7 +3515499,7 @@ iplookup.flagfox.net##.adsbygoogle
 ! Source: https://ublockorigin.pages.dev/filters/unbreak.min.txt
 ! Title: uBlock filters – Unbreak
 ! Last modified: Wed, 28 Oct 2026 12:39:57 +0000
-! Diff-Path: ../patches/2026.10.30.762.patch#ublock-unbreak
+! Diff-Path: ../patches/2026.10.30.1112.patch#ublock-unbreak
 ! *** uAssets:filters/unbreak.txt ***
 ! START: Removeparam/Bounce/Click trackings
 ! password reset link broken on coindesk.com
